@@ -1,0 +1,2850 @@
+{
+  "scope": "当前设计源BOM基线650件：193个非R/C位号、72种非R/C型号；excluded_RC=457为旧统计基数，并不表示457个R/C型号已逐一映射。本索引另逐型号收录已确认的主板电源外围、辅助板TDK与KEMET电容、YAGEO RT精密电阻及指定候选；其余未核实R/C仍为明确覆盖缺口。",
+  "source_sha256": "d8d51d2fcd39c529ecbca57fdccc7fce8c09d7f4f889ecb0fb789a7835af3c6d",
+  "component_count": 650,
+  "excluded_RC": 457,
+  "covered_refs": 253,
+  "unique_models": 99,
+  "models": [
+    {
+      "model": "SPFJ100.X",
+      "refs": [
+        "F1"
+      ],
+      "source": "https://www.mouser.cn/datasheet/2/240/Littelfuse_Fuse_Solar_SPFJ_Datasheet-370166.pdf",
+      "status": "已归档PDF",
+      "file": "SPFJ100.X.pdf",
+      "sha256": "c78b156355c0ac917f405b4afee6d49f82443b0f794cf01d882c840b36ae6650",
+      "design_source": "https://www.littelfuse.com/assetdocs/spfj-datasheet?assetguid=b170273e-bbde-433d-9910-9122088c257a",
+      "download_source": "https://www.mouser.cn/datasheet/2/240/Littelfuse_Fuse_Solar_SPFJ_Datasheet-370166.pdf",
+      "manufacturer": "Littelfuse",
+      "original_pages": 4,
+      "version": "2021-08-27",
+      "coverage_note": "原文4页+Mouser附页1页；第3页明确SPFJ100.X、SPFJ070.X订货编码。",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "original_source": "https://www.littelfuse.com/assetdocs/spfj-datasheet?assetguid=b170273e-bbde-433d-9910-9122088c257a"
+    },
+    {
+      "model": "OTDC100E02",
+      "refs": [
+        "K1"
+      ],
+      "source": "https://search.abb.com/library/Download.aspx?DocumentID=1SCC301021C0202&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "status": "已归档PDF",
+      "file": "OTDC100E02.pdf",
+      "sha256": "865fcadb337942048c5621ecc819c530eb05d4f54434f9efc4f282ba6cc076e7",
+      "design_source": "https://new.abb.com/low-voltage/products/switches/dc-switch-disconnectors-16-1600-a/otdc-100-250a"
+    },
+    {
+      "model": "SMCJ43A",
+      "refs": [
+        "D_TVS",
+        "D_AUXTVS",
+        "D_COIL_CLAMP",
+        "D_SC_AUX_TVS"
+      ],
+      "source": "https://www.littelfuse.com/products/overvoltage-protection/tvs-diodes/surface-mount/smcj/smcj43a",
+      "status": "已归档PDF",
+      "file": "SMCJ43A.pdf",
+      "sha256": "29531c61c5717811b8d6ddd669cfe41d639e747c71405e68085981af736b5942"
+    },
+    {
+      "model": "KLKD001.T",
+      "refs": [
+        "F_AUXBAT",
+        "F_AUXBUS",
+        "F_BACKUP_AUX",
+        "F_COIL_AUX",
+        "F_SC_AUX_BAT"
+      ],
+      "source": "https://jlcpcb.com/partdetail/Littelfuse-KLKD004_T/C142947",
+      "status": "已归档PDF",
+      "file": "KLKD001.T.pdf",
+      "sha256": "f6b778509cc7388562ab41494f96433fd0a752e150335819b59b90cb16ff50f1",
+      "design_source": "https://www.littelfuse.com/assetdocs/klkd-fuse-datasheet?assetguid=7b52eebb-c7cc-43df-a8da-9682a338e0f6",
+      "download_source": "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8590166649510141952-C142947.pdf",
+      "manufacturer": "Littelfuse",
+      "original_pages": 6,
+      "version": "2017-06-12",
+      "coverage_note": "原厂KLKD全系列6页；第2页订货表明确KLKD001.T与KLKD002.T。",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "original_source": "https://www.littelfuse.com/assetdocs/klkd-fuse-datasheet?assetguid=7b52eebb-c7cc-43df-a8da-9682a338e0f6"
+    },
+    {
+      "model": "STPS2H100A",
+      "refs": [
+        "D_AUXBAT",
+        "D_AUXBUS",
+        "D_SC_OR_BAT",
+        "D_SC_OR_CAP"
+      ],
+      "source": "https://jlcpcb.com/partdetail/ST-STPS2H100A/C81548",
+      "status": "已归档PDF",
+      "file": "STPS2H100A.pdf",
+      "sha256": "ca963ae1412c1281744defbc3b6cb591c283ec5e5e48ebb023ed74ce64d73475",
+      "design_source": "https://www.st.com/resource/en/datasheet/stps2h100.pdf",
+      "download_source": "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588879952373043200-C81548.pdf",
+      "manufacturer": "STMicroelectronics",
+      "original_pages": 12,
+      "version": "2013-06 / DocID6115 Rev8",
+      "coverage_note": "原厂STPS2H100工业版12页；订货表明确A=SMA，完整型号STPS2H100A。镜像版本较原厂现行链接旧。",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "original_source": "https://www.st.com/resource/en/datasheet/stps2h100.pdf"
+    },
+    {
+      "model": "B2B-XH-A(LF)(SN)",
+      "refs": [
+        "J_FAN",
+        "J_ESTOP",
+        "J_DUMP_TH",
+        "J_BMS",
+        "J_NTC",
+        "J_AUXBAT_IN",
+        "J_AUXBUS_IN",
+        "J_COIL",
+        "J_DUMP_TH_B",
+        "J_MOD15_IN",
+        "J_MAIN12_IN",
+        "J_MOD5_IN",
+        "J_BACKUP_AUX_IN",
+        "J_COIL_AUX_IN",
+        "J_AUX_OR_OUT"
+      ],
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+      "status": "已归档PDF",
+      "file": "B2B-XH-A_LF_SN.pdf",
+      "sha256": "9426b136902f11900825077535e5c65032b7fbc31ffb59c5e9e1f463bb20fb90",
+      "coverage_note": "JST XH 系列原厂资料；LF/SN环保与电镀后缀按完整订货型号保留。"
+    },
+    {
+      "model": "M20-7831242",
+      "refs": [
+        "J_CORE_P1",
+        "J_CORE_P2",
+        "J_SC_CORE_P1",
+        "J_SC_CORE_P2"
+      ],
+      "source": "https://content.harwin.com/asset/d6e23765-84b2-4c9c-8c92-6f718b2b03f9/DRG-00386-Technical-Drawing-Datasheet-M20-783-pdf.pdf",
+      "status": "已归档PDF",
+      "file": "M20-7831242.pdf",
+      "sha256": "1d9e362c05cbd275228b8920da59c5b1719dac5d960838b61b94693021be26a5",
+      "design_source": "https://www.harwin.com/products/M20-7831242",
+      "coverage_note": "Harwin M20-783系列原厂技术图纸；同型号用于主板和储能核心板P1/P2两只母座。WeAct官方原理图另列为引脚编号参考，不是连接器MPN。"
+    },
+    {
+      "model": "DRV8353SRTAR",
+      "refs": [
+        "U3"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/drv8353.pdf",
+      "status": "已归档PDF",
+      "file": "DRV8353SRTAR.pdf",
+      "sha256": "8bb3a1d29ec9ea079d0ef452a2a0c614511f37575756b11a03646d8a82ed758c"
+    },
+    {
+      "model": "IPT015N10N5ATMA1",
+      "refs": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q9",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q_COIL",
+        "Q_BACKUP",
+        "Q_SC_HVA",
+        "Q_SC_HVB",
+        "Q_SC_LVA",
+        "Q_SC_LVB",
+        "Q_SC_1H",
+        "Q_SC_1L",
+        "Q_SC_2H",
+        "Q_SC_2L",
+        "Q_BAT_BLOCK1",
+        "Q_BAT_BLOCK2"
+      ],
+      "source": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipt015n10n5-datasheet-en.pdf",
+      "status": "已归档PDF",
+      "file": "IPT015N10N5ATMA1.pdf",
+      "sha256": "2f4a45447ae543c9202acbf012dd3859d784d8ae64348617bdc63eeadc142e3c",
+      "coverage_note": "原厂IPT015N10N5器件手册；ATMA1为完整订货/包装后缀，索引未改型号。"
+    },
+    {
+      "model": "BZT52H-C15,115",
+      "refs": [
+        "DGS1",
+        "DGS2",
+        "DGS3",
+        "DGS4",
+        "DGS5",
+        "DGS6",
+        "DGS7",
+        "DGS8",
+        "DGS9",
+        "DGS10",
+        "DGS11",
+        "DGS12",
+        "DGS13",
+        "D_COIL_GS",
+        "DGS13_B",
+        "D_SC_GBIAS_GS"
+      ],
+      "source": "https://assets.nexperia.com/documents/data-sheet/BZT52H_SER.pdf",
+      "status": "已归档PDF",
+      "file": "BZT52H-C15_115.pdf",
+      "sha256": "a5e54de45bdf1af712c2d9fdfb0fd092804cd83b26eb66e3656b12dea0c8b592"
+    },
+    {
+      "model": "TLV3202AIDGKR",
+      "refs": [
+        "U4",
+        "U5",
+        "U6"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/tlv3202.pdf",
+      "status": "已归档PDF",
+      "file": "TLV3202AIDGKR.pdf",
+      "sha256": "1777bba814c74772bb54c6f1f56702985039043ce2fb2affaf996a83eaf1076e"
+    },
+    {
+      "model": "BAT54H,115",
+      "refs": [
+        "DOCP_AH",
+        "DOCP_AL",
+        "DOCP_BH",
+        "DOCP_BL",
+        "DOCP_CH",
+        "DOCP_CL",
+        "D_VBH",
+        "D_VBL",
+        "D_RDY",
+        "D_NRST"
+      ],
+      "source": "https://assets.nexperia.com/documents/data-sheet/BAT54H.pdf",
+      "status": "已归档PDF",
+      "file": "BAT54H_115.pdf",
+      "sha256": "3b7856e29d2fbe6713716ba8076f249ea94b5b79210989571cd0e68d6d2c03ff"
+    },
+    {
+      "model": "INA241A2IDGKR",
+      "refs": [
+        "U7",
+        "U_SC_CAP_CURRENT",
+        "U_BRIDGE_SENSE"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/ina241a.pdf",
+      "status": "已归档PDF",
+      "file": "INA241A2IDGKR.pdf",
+      "sha256": "d0f0d3a73c1bc2b4fe42d9cd6a4270c316d1164f8f86dc027f802428950029e8"
+    },
+    {
+      "model": "B57560G1103G000",
+      "refs": [
+        "NTC1"
+      ],
+      "source": "https://www.mouser.cn/datasheet/2/400/NTC_Glass_enc_sensors_G1560-1317164.pdf",
+      "status": "已归档PDF",
+      "file": "B57560G1103G000.pdf",
+      "sha256": "aff08779cbb5799fd2907387362a1751c7ca1526467a4da76a6678a9d19342ca",
+      "design_source": "https://product.tdk.com/en/search/sensor/ntc/ntc_element/info?part_no=B57560G1103G000",
+      "download_source": "https://www.mouser.cn/datasheet/2/400/NTC_Glass_enc_sensors_G1560-1317164.pdf",
+      "manufacturer": "TDK/EPCOS",
+      "original_pages": 26,
+      "version": "2018-01",
+      "coverage_note": "原文26页+Mouser附页1页；B57560G1103+000选G=正负2%构成完整订货编码。",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "original_source": "https://product.tdk.com/en/search/sensor/ntc/ntc_element/info?part_no=B57560G1103G000"
+    },
+    {
+      "model": "SN74HC74PWR",
+      "refs": [
+        "U8"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/sn74hc74.pdf",
+      "status": "已归档PDF",
+      "file": "SN74HC74PWR.pdf",
+      "sha256": "d1e57133ca40b595c670688718807c367b555b6fe57144c881d629de18230351"
+    },
+    {
+      "model": "SN74LVC08APWR",
+      "refs": [
+        "U9",
+        "U10"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc08a.pdf",
+      "status": "已归档PDF",
+      "file": "SN74LVC08APWR.pdf",
+      "sha256": "e5af3b29e61782a243d18a2e0a24e0f8bbda23a4c46cdea98b01dae91a96e97d"
+    },
+    {
+      "model": "SN74LVC1G11DBVR",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf",
+      "status": "已归档PDF",
+      "file": "SN74LVC1G11DBVR.pdf",
+      "manufacturer": "Texas Instruments",
+      "original_pages": 37,
+      "source_kind": "原厂PDF",
+      "refs": [
+        "U_PWM_GATE"
+      ],
+      "sha256": "ffd953703273b43844eae23cfbf31cfc801a3b9443f2c863d49dde62f5a9232b"
+    },
+    {
+      "model": "SN74LVC1G17DBVR",
+      "refs": [
+        "U11",
+        "U_GCLK",
+        "U_SC_FAULT_BUF"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+      "status": "已归档PDF",
+      "file": "SN74LVC1G17DBVR.pdf",
+      "sha256": "c76fa723fac4502423967a1aa087dd669106b52b8de620c024b26e56f5d59309"
+    },
+    {
+      "model": "MMBT3904LT1G",
+      "refs": [
+        "Q14",
+        "Q16",
+        "Q_BTHERM",
+        "Q_SC_GBIAS_NPN"
+      ],
+      "source": "https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf",
+      "status": "已归档PDF",
+      "file": "MMBT3904LT1G.pdf",
+      "sha256": "7ef6d370b7e72c9f047c1ec95feaa40c605e1f107eb11bc0175e6fdfd5e707c4"
+    },
+    {
+      "model": "TPS3808G33DBVR",
+      "refs": [
+        "U12"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "status": "已归档PDF",
+      "file": "TPS3808G33DBVR.pdf",
+      "sha256": "74d889c0f68af88032f1633c26381817cc03e10d9fd3b4c177a044ad3ed86eed"
+    },
+    {
+      "model": "REF5025ID",
+      "refs": [
+        "U13",
+        "U20"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/ref50.pdf",
+      "status": "已归档PDF",
+      "file": "REF5025ID.pdf",
+      "sha256": "d2da9488194dba11732c85c498b563c12e0bb6b3e2d21631022dde9bff51a13d"
+    },
+    {
+      "model": "TLV1704AIPWR",
+      "refs": [
+        "U14",
+        "U21"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/tlv1704.pdf",
+      "status": "已归档PDF",
+      "file": "TLV1704AIPWR.pdf",
+      "sha256": "b971c8ca9ae7da43d67fa3486f202e6e688d8f5cc4b220268473fc0b4904c42b"
+    },
+    {
+      "model": "UCC27517DBVR",
+      "refs": [
+        "U15",
+        "U25",
+        "U22"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/ucc27517.pdf",
+      "status": "已归档PDF",
+      "file": "UCC27517DBVR.pdf",
+      "sha256": "6b7b8c088746010dfbce36367a03de3e971a91bd6fb705adad0c6258d44bf90c"
+    },
+    {
+      "model": "SPFJ070.X",
+      "refs": [
+        "F2",
+        "F_BACKUP"
+      ],
+      "source": "https://www.mouser.cn/datasheet/2/240/Littelfuse_Fuse_Solar_SPFJ_Datasheet-370166.pdf",
+      "status": "已归档PDF",
+      "file": "SPFJ100.X.pdf",
+      "sha256": "c78b156355c0ac917f405b4afee6d49f82443b0f794cf01d882c840b36ae6650",
+      "design_source": "https://www.littelfuse.com/assetdocs/spfj-datasheet?assetguid=b170273e-bbde-433d-9910-9122088c257a",
+      "download_source": "https://www.mouser.cn/datasheet/2/240/Littelfuse_Fuse_Solar_SPFJ_Datasheet-370166.pdf",
+      "manufacturer": "Littelfuse",
+      "original_pages": 4,
+      "version": "2021-08-27",
+      "coverage_note": "与100A共享完整SPFJ原厂系列手册；不是100A型号替代70A。",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "original_source": "https://www.littelfuse.com/assetdocs/spfj-datasheet?assetguid=b170273e-bbde-433d-9910-9122088c257a"
+    },
+    {
+      "model": "STPS60150CT",
+      "refs": [
+        "D_FREE",
+        "D_FREE_B"
+      ],
+      "source": "https://www.st.com/resource/en/datasheet/stps60150c.pdf",
+      "status": "已归档PDF",
+      "file": "STPS60150CT.pdf",
+      "sha256": "0a27fcfbd88927d6169d7705db4d62bb80f58ee5893c7567d29bc69e6b34a371"
+    },
+    {
+      "model": "TCAN1051HGVDR",
+      "refs": [
+        "U16",
+        "U_SC_CAN"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/tcan1051h.pdf",
+      "status": "已归档PDF",
+      "file": "TCAN1051HGVDR.pdf",
+      "sha256": "9d4561ff8b0892f760ceeb5299722c0dec5f3957cf0ca0d48b13bb9e1a2d3698"
+    },
+    {
+      "model": "B4B-XH-A(LF)(SN)",
+      "refs": [
+        "J_CAN"
+      ],
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+      "status": "已归档PDF",
+      "file": "B2B-XH-A_LF_SN.pdf",
+      "sha256": "9426b136902f11900825077535e5c65032b7fbc31ffb59c5e9e1f463bb20fb90",
+      "coverage_note": "JST XH 系列原厂资料；与2/5针型号共享同一手册，型号未替换。"
+    },
+    {
+      "model": "M20-9990246",
+      "refs": [
+        "JP_TERM"
+      ],
+      "source": "https://content.harwin.com/asset/640f59f4-1860-40fe-82ef-f2a104ffa7d8/DRG-00479-Technical-Drawing-Datasheet-M20-999-pdf.pdf",
+      "status": "已归档PDF",
+      "file": "M20-9990246.pdf",
+      "sha256": "03044d5d36a23a934970f60d11482d94366ca23c70fce8a524293ce1048f820f",
+      "design_source": "https://www.harwin.com/products/M20-9990246",
+      "coverage_note": "原厂完整型号产品页 https://www.harwin.com/products/M20-9990246 指向此M20-999系列技术图纸；图纸按XX电镀后缀定义选型。"
+    },
+    {
+      "model": "PESD2CAN,215",
+      "refs": [
+        "D_CAN"
+      ],
+      "source": "https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf",
+      "status": "已归档PDF",
+      "file": "PESD2CAN_215.pdf",
+      "sha256": "5ef9add81450bd4ec67aff0bc4bc3d55ed232a06708066e51c0578d5ca563c67"
+    },
+    {
+      "model": "0467.250NR",
+      "refs": [
+        "F_HALL"
+      ],
+      "source": "https://jlcpcb.com/partdetail/Littelfuse-0467250NR/C99556",
+      "status": "已归档PDF",
+      "file": "0467.250NR.pdf",
+      "sha256": "2bc742555b22e91c1ac4b7572367f81ddb2d9eefecba1a3fb942f08f4fa1f045",
+      "design_source": "https://www.littelfuse.com/assetdocs/fuse-467-datasheet?assetguid=4a59f034-1cca-460e-a5ba-e1e66247c76d",
+      "download_source": "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588917317254459392-C99556.pdf",
+      "manufacturer": "Littelfuse",
+      "original_pages": 3,
+      "version": "2015-04-30",
+      "coverage_note": "467原厂系列3页；.250电流代码、NR=5000只卷带由订货编码定义，下载关联商城完整型号0467.250NR；HF后缀另列为无卤标志。",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "original_source": "https://www.littelfuse.com/assetdocs/fuse-467-datasheet?assetguid=4a59f034-1cca-460e-a5ba-e1e66247c76d"
+    },
+    {
+      "model": "B5B-XH-A(LF)(SN)",
+      "refs": [
+        "J_HALL"
+      ],
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+      "status": "已归档PDF",
+      "file": "B2B-XH-A_LF_SN.pdf",
+      "sha256": "9426b136902f11900825077535e5c65032b7fbc31ffb59c5e9e1f463bb20fb90",
+      "coverage_note": "JST XH 系列原厂资料；与2/4针型号共享同一手册，型号未替换。"
+    },
+    {
+      "model": "SN74LVC3G17DCUR",
+      "refs": [
+        "U17"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc3g17.pdf",
+      "status": "已归档PDF",
+      "file": "SN74LVC3G17DCUR.pdf",
+      "sha256": "bcb966e7fbb682bb7f330c544326e32865abd9eb87c5ce7b6606f3447cb4a84c"
+    },
+    {
+      "model": "PESD5V0S1BA,115",
+      "refs": [
+        "D_HA",
+        "D_HB",
+        "D_HC"
+      ],
+      "source": "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1BA.pdf",
+      "status": "已归档PDF",
+      "file": "PESD5V0S1BA_115.pdf",
+      "sha256": "6546e415b8885ea3790c91629034c6b4e5c6961d5fde734e55dfa479dd8dc49a"
+    },
+    {
+      "model": "1055644",
+      "refs": [
+        "J_BAT_1",
+        "J_BAT_2",
+        "J_MOTOR_1",
+        "J_MOTOR_2",
+        "J_MOTOR_3",
+        "J_DUMP_1",
+        "J_DUMP_2",
+        "J_DUMP_1_B",
+        "J_DUMP_2_B"
+      ],
+      "source": "https://www.sonepar.fr/catalog/fr-fr/products/phoenix-contact-hv-m8-2-nff-bloc-de-onction-de-puissance-a-tige-filtee-00126669275",
+      "status": "已归档PDF",
+      "file": "1055644.pdf",
+      "sha256": "530c4df57fce70996e025b9cf84c120596f1ca39dc8eb23f983a9d334ce754ed",
+      "design_source": "https://www.phoenixcontact.com/en-gb/products/bolt-connection-terminal-block-hv-m82-nff-1055644",
+      "download_source": "https://fra-connect.mo.cloudinary.net/PRODUCT/DOCUMENT/126/phoenix-contact-1055644-FR.pdf?ts=1722892192446",
+      "manufacturer": "Phoenix Contact",
+      "original_pages": 18,
+      "version": "2024-01-09 / 法文",
+      "coverage_note": "原厂生成的完整18页产品数据PDF，逐页标有1055644 / HV M8/2 NFF，页码1至18连续；含电气、接线、扭矩、尺寸、环境、测试、认证、图纸及配件。原文注明来自在线目录，更详细的用户文档需另行查阅；不是新编摘录，也不是其它型号替代。",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "original_source": "https://www.phoenixcontact.com/gb/products/1055644/pdf"
+    },
+    {
+      "model": "MF50151V1-B00U-A99",
+      "refs": [
+        "FAN1"
+      ],
+      "source": "https://www.sunon.com/eu/MANAGE/Docs/PRODUCT/299/367/Sunon%20DC%20Brushless%20Fan%20%26%20Blower_%28240-E%29.pdf",
+      "status": "已归档PDF",
+      "file": "MF50151V1-B00U-A99.pdf",
+      "sha256": "1f636c4966db52396d8c5ff1949c3ef95abaca6f4e5ba57d00c3416881c90aa6"
+    },
+    {
+      "model": "HW1B-X401R-MAU",
+      "refs": [
+        "S_ESTOP"
+      ],
+      "source": "https://files.plytix.com/api/v1.1/file/public_files/pim/assets/e4/bc/8f/66/668fbce4238b3100010b8ed4/texts/56/94/12/69/691294566178a9ce4f4fe382/idec-hw-emergency-stop-push-button-switches-datasheet.pdf",
+      "status": "已归档PDF",
+      "file": "HW1B-X401R-MAU.pdf",
+      "sha256": "3e03df4fa5d8f8f1ba9fc0d1e08292b8ab5d04383b5cc0ad46374eb5c6d7081a",
+      "design_source": "https://www.idec.com/en-us/switches-indicator-lights/switches-pushbuttons/22mm-25mm-30mm-switches/hw-22mm-heavy-duty",
+      "download_source": "https://files.plytix.com/api/v1.1/file/public_files/pim/assets/e4/bc/8f/66/668fbce4238b3100010b8ed4/texts/56/94/12/69/691294566178a9ce4f4fe382/idec-hw-emergency-stop-push-button-switches-datasheet.pdf",
+      "manufacturer": "IDEC",
+      "original_pages": 7,
+      "version": "2025-06 / EP5204A",
+      "coverage_note": "原厂HW急停系列7页；选型表含HW1B-X401R，Part No. Development表MAU=镀金银触点。公开PDF镜像，原厂当前完整型号产品页亦可核对。",
+      "source_kind": "公开镜像中的原厂PDF原文",
+      "original_source": "https://www.idec.com/en-us/switches-indicator-lights/switches-pushbuttons/22mm-25mm-30mm-switches/hw-22mm-heavy-duty"
+    },
+    {
+      "model": "67L080P",
+      "refs": [
+        "S_THERM",
+        "S_BTHERM"
+      ],
+      "source": "https://jlcpcb.com/partdetail/SensataTech-TO_220/C17231657",
+      "status": "已归档PDF",
+      "file": "67L080P.pdf",
+      "sha256": "9594546e47a02682a491c0b8a2c05b8813faf6692b89db2f9228240dfe06f548",
+      "design_source": "https://www.sensata.com/sites/default/files/a/sensata-6700-series-subminiature-bimetal-disc-thermostats-datasheet.pdf",
+      "download_source": "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8602841592969641984-C17231657.pdf",
+      "manufacturer": "Sensata",
+      "original_pages": 5,
+      "version": "2020",
+      "coverage_note": "6700原厂系列5页；第4页编码67/L/080/P分别表示系列/升温断开/80摄氏度/塑料安装架，并列80摄氏度校准行。",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "original_source": "https://www.sensata.com/sites/default/files/a/sensata-6700-series-subminiature-bimetal-disc-thermostats-datasheet.pdf"
+    },
+    {
+      "model": "TPS3431SDRBR",
+      "refs": [
+        "U19"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/tps3431.pdf",
+      "status": "已归档PDF",
+      "file": "TPS3431SDRBR.pdf",
+      "sha256": "99bf5dbfffe06e8f85d9a86cfb777a0151e85b4a103033bc025f4897a0bdc6f3"
+    },
+    {
+      "model": "KLKD002.T",
+      "refs": [
+        "F_PRE"
+      ],
+      "source": "https://jlcpcb.com/partdetail/Littelfuse-KLKD004_T/C142947",
+      "status": "已归档PDF",
+      "file": "KLKD001.T.pdf",
+      "sha256": "f6b778509cc7388562ab41494f96433fd0a752e150335819b59b90cb16ff50f1",
+      "design_source": "https://www.littelfuse.com/assetdocs/klkd-fuse-datasheet?assetguid=7b52eebb-c7cc-43df-a8da-9682a338e0f6",
+      "download_source": "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8590166649510141952-C142947.pdf",
+      "manufacturer": "Littelfuse",
+      "original_pages": 6,
+      "version": "2017-06-12",
+      "coverage_note": "与1A共享KLKD原厂系列手册；第2页明确2A完整订货编码。",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "original_source": "https://www.littelfuse.com/assetdocs/klkd-fuse-datasheet?assetguid=7b52eebb-c7cc-43df-a8da-9682a338e0f6"
+    },
+    {
+      "model": "G9EA-1-B DC12",
+      "refs": [
+        "K2"
+      ],
+      "source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en_g9ea_ec.pdf",
+      "status": "已归档PDF",
+      "file": "G9EA-1-B_DC12.pdf",
+      "sha256": "5914fb25ff1fbb42ce5b03a193bbd806fc32f5d2d48a8bc1e090b93586bc4577",
+      "coverage_note": "原厂G9EA/G9EB/G9EC系列手册；G9EA-1-B型号与DC12线圈额定分表列出。"
+    },
+    {
+      "model": "SN74LVC1G08DBVR",
+      "refs": [
+        "U24"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf",
+      "status": "已归档PDF",
+      "file": "SN74LVC1G08DBVR.pdf",
+      "sha256": "30b963cc44233cf3ca35c891ff987c8323a2244ecc765e23296ec96ca4b42666"
+    },
+    {
+      "model": "未选型",
+      "refs": [
+        "F_MOD1",
+        "F_MAIN1",
+        "F_MOD2"
+      ],
+      "source": null,
+      "status": "待选",
+      "file": null,
+      "sha256": null,
+      "reason": "设计源没有确定完整订货型号"
+    },
+    {
+      "model": "URB4815YMD-10WR3",
+      "refs": [
+        "PSU15_EXT"
+      ],
+      "source": "https://h.hlktech.com/download/DCDC电源模块10W系列/1/UR(A)B_YMD-10WR3系列技术手册V1.7.pdf",
+      "manufacturer": "深圳市海凌科电子有限公司（Hi-Link；按归档原厂手册）",
+      "status": "已归档PDF",
+      "file": "URB4815YMD-10WR3.pdf",
+      "sha256": "1c55e95b4c6457f75984519c61ba2c544b15f9e65016e8ebf4cc286b545ff49d"
+    },
+    {
+      "model": "URB4812YMD-10WR3",
+      "refs": [
+        "PSU12_MAIN_EXT",
+        "PSU12_BACKUP_EXT",
+        "PSU12_COIL_EXT"
+      ],
+      "source": "https://h.hlktech.com/download/DCDC电源模块10W系列/1/UR(A)B_YMD-10WR3系列技术手册V1.7.pdf",
+      "manufacturer": "深圳市海凌科电子有限公司（Hi-Link；按归档原厂手册）",
+      "status": "已归档PDF",
+      "file": "URB4815YMD-10WR3.pdf",
+      "sha256": "1c55e95b4c6457f75984519c61ba2c544b15f9e65016e8ebf4cc286b545ff49d"
+    },
+    {
+      "model": "URB4805YMD-10WR3",
+      "refs": [
+        "PSU5_EXT"
+      ],
+      "source": "https://h.hlktech.com/download/DCDC电源模块10W系列/1/UR(A)B_YMD-10WR3系列技术手册V1.7.pdf",
+      "manufacturer": "深圳市海凌科电子有限公司（Hi-Link；按归档原厂手册）",
+      "status": "已归档PDF",
+      "file": "URB4815YMD-10WR3.pdf",
+      "sha256": "1c55e95b4c6457f75984519c61ba2c544b15f9e65016e8ebf4cc286b545ff49d"
+    },
+    {
+      "model": "待选：本侧储能HV功率端口",
+      "refs": [
+        "J_SC_BUS"
+      ],
+      "source": null,
+      "status": "待选",
+      "file": null,
+      "sha256": null,
+      "reason": "设计源没有确定完整订货型号"
+    },
+    {
+      "model": "SM05B-GHS-TB(LF)(SN)",
+      "refs": [
+        "J_SC_CTL",
+        "J_CAP_CTL"
+      ],
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+      "status": "已归档PDF",
+      "file": "SM05B-GHS-TB_LF_SN.pdf",
+      "sha256": "b1dcb317b6b9a4fbbedd2dbf42c64c95306a252d23de8933b85fcf161240b722",
+      "manufacturer": "JST",
+      "original_pages": 6,
+      "source_kind": "原厂PDF",
+      "coverage_note": "GH五针侧插SM05B-GHS-TB；第2页PCB安装面1号脚在左；6/7为CAD机械焊脚编号，并非原厂电气触点编号。"
+    },
+    {
+      "model": "待选：手动检修放电开关，DC额定待选",
+      "refs": [
+        "S_SC_SERVICE"
+      ],
+      "source": null,
+      "status": "待选",
+      "file": null,
+      "sha256": null,
+      "reason": "设计源没有确定完整订货型号"
+    },
+    {
+      "model": "待选：DC熔断器，开断/I²t待选",
+      "refs": [
+        "F_SC_HV",
+        "F_SC_LV"
+      ],
+      "source": null,
+      "status": "待选",
+      "file": null,
+      "sha256": null,
+      "reason": "设计源没有确定完整订货型号"
+    },
+    {
+      "model": "待选：常开预充检修开关，DC/SOA待选",
+      "refs": [
+        "S_SC_HV_PRE",
+        "S_SC_LV_PRE"
+      ],
+      "source": null,
+      "status": "待选",
+      "file": null,
+      "sha256": null,
+      "reason": "设计源没有确定完整订货型号"
+    },
+    {
+      "model": "B2P-VH(LF)(SN)",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eVH.pdf",
+      "status": "已归档PDF",
+      "file": "B2P-VH_LF_SN.pdf",
+      "manufacturer": "JST",
+      "original_pages": 6,
+      "source_kind": "原厂PDF",
+      "coverage_note": "标准顶插B2P-VH；安装面1号脚在左，3.96mm脚距，第4页参考孔φ1.65+0.1/0；完整LF/SN见标签说明。",
+      "refs": [
+        "J_SC_AUX_IN"
+      ],
+      "sha256": "d51e669c597988b20c0963daf5bef7356cbd2104c1f867e9107c6fa6cd2b899c"
+    },
+    {
+      "model": "待选：1A DC辅助保险，开断待核",
+      "refs": [
+        "F_SC_AUX_CAP"
+      ],
+      "source": null,
+      "status": "待选",
+      "file": null,
+      "sha256": null,
+      "reason": "设计源没有确定完整订货型号"
+    },
+    {
+      "model": "LM5164DDAR",
+      "refs": [
+        "U_SC_10V"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/lm5164.pdf",
+      "status": "已归档PDF",
+      "file": "LM5164DDAR.pdf",
+      "sha256": "cce03619fbe13951eea47458cd45e140361637d8fef32ae143b82b16d597e32d"
+    },
+    {
+      "model": "MSS1210H-683MED",
+      "refs": [
+        "L_SC_10V"
+      ],
+      "source": "https://www.coilcraft.com/getmedia/52078704-21eb-4c2b-9b72-1e07b4a2e252/mss1210h.pdf",
+      "status": "已归档PDF",
+      "file": "MSS1210H.pdf",
+      "sha256": "e82623c515ca4f3e92898593ddfd87aaee87f60d492c340808ce01316aa9f0ae",
+      "design_source": "https://www.coilcraft.com/en-us/products/power/high-voltage-inductors/mss-mos-%281%29/mss1210h/mss1210h-683/",
+      "manufacturer": "Coilcraft",
+      "original_pages": 2,
+      "version": "2022-07-06",
+      "coverage_note": "68uH±20%；DCR max 65mΩ；25℃ Isat 2.9A对应电感下降10%；Irms 2.55A/3.40A对应温升20/40℃。热态Isat与实装散热待核。",
+      "source_kind": "原厂数据手册",
+      "original_source": "https://www.coilcraft.com/en-us/products/power/high-voltage-inductors/mss-mos-%281%29/mss1210h/mss1210h-683/"
+    },
+    {
+      "model": "LMR33630ADDAR",
+      "refs": [
+        "U_SC_5V"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/lmr33630.pdf",
+      "status": "已归档PDF",
+      "file": "LMR33630ADDAR.pdf",
+      "sha256": "3b0920a4e56a0b3f5f214a6317d3c06cff6e541e5054024adc31c30acc50c04a"
+    },
+    {
+      "model": "XAL7030-822MEC",
+      "refs": [
+        "L_SC_5V"
+      ],
+      "source": "https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf",
+      "status": "已归档PDF",
+      "file": "XAL7030.pdf",
+      "sha256": "c323552b4c1acd5ad94d13c32783d1d7db3f86ab70a1c58431673aebb96be9f6",
+      "design_source": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal7030/xal7030-822/",
+      "manufacturer": "Coilcraft",
+      "original_pages": 4,
+      "version": "2026-02-25",
+      "coverage_note": "8.2uH±20%；DCR max 60.94mΩ；25℃典型Isat 8.4A对应电感下降30%；Irms 2.9A/5.9A对应温升20/40℃。热态Isat与实装散热待核。",
+      "source_kind": "原厂数据手册",
+      "original_source": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal7030/xal7030-822/"
+    },
+    {
+      "model": "LM5170PHPR",
+      "refs": [
+        "U_SC_CTRL"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/lm5170.pdf",
+      "status": "已归档PDF",
+      "file": "LM5170PHPR.pdf",
+      "sha256": "0e982378f8aa2f9577c007b4c9c24e2cfb6804738d559b6ae2d8de3acb53eddc"
+    },
+    {
+      "model": "STPS1H100A",
+      "refs": [
+        "D_SC_BOOT1",
+        "D_SC_BOOT2",
+        "D_SC_AFE_HOLD"
+      ],
+      "source": "https://jlcpcb.com/partdetail/ST-STPS1H100U/C165939",
+      "status": "已归档PDF",
+      "file": "STPS1H100A.pdf",
+      "sha256": "880c1909c39f8494d67353f7dc166e7ee17ab5d8d20f33a8b4d89bbeca2c37ed",
+      "design_source": "https://www.st.com/resource/en/datasheet/stps1h100.pdf",
+      "download_source": "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588880490366947328-C165939.pdf",
+      "manufacturer": "STMicroelectronics",
+      "original_pages": 10,
+      "version": "2008-09 Rev6",
+      "coverage_note": "从STPS1H100U商城入口取得原厂工业版STPS1H100系列10页；第8页订货表明确STPS1H100A；未使用C165701错误关联的STPS1H100AY汽车版手册。",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "original_source": "https://www.st.com/resource/en/datasheet/stps1h100.pdf"
+    },
+    {
+      "model": "待选：20uH Isat热态>=50A RMS>=30A DCR<=2mR 待选",
+      "refs": [
+        "L_SC_PHASE1",
+        "L_SC_PHASE2"
+      ],
+      "source": null,
+      "status": "待选",
+      "file": null,
+      "sha256": null,
+      "reason": "设计源没有确定完整订货型号"
+    },
+    {
+      "model": "TLV61046ADBVR",
+      "refs": [
+        "U_SC_AFE_BOOST"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/tlv61046a.pdf",
+      "status": "已归档PDF",
+      "file": "TLV61046ADBVR.pdf",
+      "sha256": "a3749e059bbbe29aa685d5e45275b867ea7bd0bb24a3bc9aaa812640cdf363f5"
+    },
+    {
+      "model": "SRN4018-100M",
+      "refs": [
+        "L_SC_AFE_BOOST"
+      ],
+      "source": "https://www.bourns.com/docs/product-datasheets/srn4018.pdf",
+      "status": "已归档PDF",
+      "file": "SRN4018-100M.pdf",
+      "sha256": "c0676daa5085c508282bb5a939876346ffadc9ae67caf65ad2f139a667733ec9",
+      "manufacturer": "Bourns",
+      "coverage_note": "SRN4018系列数据手册；当前选用10uH SRN4018-100M"
+    },
+    {
+      "model": "LTC6811IG-1#PBF",
+      "refs": [
+        "U_SC_AFE"
+      ],
+      "source": "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6811-1-6811-2.pdf",
+      "status": "已归档PDF",
+      "file": "LTC6811IG-1_PBF.pdf",
+      "sha256": "1553f3d5c5238924fe721ecd56358670de349dee3538f23002cd96e38f0d711b"
+    },
+    {
+      "model": "待选：10k NTC 外贴温度传感器，型号待选",
+      "refs": [
+        "NTC_SC_1",
+        "NTC_SC_2",
+        "NTC_SC_3",
+        "NTC_SC_4",
+        "NTC_SC_5"
+      ],
+      "source": null,
+      "status": "待选",
+      "file": null,
+      "sha256": null,
+      "reason": "设计源没有确定完整订货型号"
+    },
+    {
+      "model": "TPS3700DDCR",
+      "refs": [
+        "U_SC_GBIAS_MON",
+        "U_BACKUP_MON",
+        "U_MAIN_MON",
+        "U_CAP_RX_MON"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/tps3700.pdf",
+      "status": "已归档PDF",
+      "file": "TPS3700DDCR.pdf",
+      "sha256": "3bb7daed20b154bf22ded78e23269c6437eb587400b89bce0f543813df94ebf0"
+    },
+    {
+      "model": "TLV803EA30DBZR",
+      "refs": [
+        "U_SC_GBIAS_POR"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/tlv803e.pdf",
+      "status": "已归档PDF",
+      "file": "TLV803EA30DBZR.pdf",
+      "design_source": "https://www.ti.com/product/TLV803E",
+      "manufacturer": "Texas Instruments",
+      "sha256": "8c0e1447e9f5edfc933912d7f30d3a11867d052b43b3ff75e45309aa461a651b"
+    },
+    {
+      "model": "DMP6023LE-13",
+      "refs": [
+        "Q_SC_GBIAS_CUT"
+      ],
+      "source": "https://www.diodes.com/datasheet/download/DMP6023LE.pdf",
+      "status": "已归档PDF",
+      "file": "DMP6023LE-13.pdf",
+      "design_source": "https://www.diodes.com/part/view/DMP6023LE",
+      "manufacturer": "Diodes Incorporated",
+      "sha256": "175824e1809b9ee239012a5704fd17ae29ec274f70cb3f451245b662f1964c59"
+    },
+    {
+      "model": "TMR1-1212",
+      "refs": [
+        "PSU_SC_PORT_HV",
+        "PSU_SC_PORT_LV"
+      ],
+      "source": "https://www.tracopower.com/products/tmr1.pdf",
+      "status": "已归档PDF",
+      "file": "TMR1.pdf",
+      "design_source": "https://www.tracopower.com/series/tmr1",
+      "manufacturer": "TRACO Power",
+      "sha256": "85d311d3fc1ce457daeadd9d83c05f61de1a7dde660a42d5f20510301a720e8b"
+    },
+    {
+      "model": "UCC21520DWR",
+      "refs": [
+        "U_SC_PORT_DRV"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/ucc21520.pdf",
+      "status": "已归档PDF",
+      "file": "UCC21520DWR.pdf",
+      "design_source": "https://www.ti.com/product/UCC21520",
+      "manufacturer": "Texas Instruments",
+      "sha256": "9fa909613e47da0f18592efd501b78b7eff435c289bcf2db1e84e7e3190085c3"
+    },
+    {
+      "model": "LM74700QDBVRQ1",
+      "refs": [
+        "U_BAT_BLOCK1",
+        "U_BAT_BLOCK2"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/lm74700-q1.pdf",
+      "status": "已归档PDF",
+      "file": "LM74700QDBVRQ1.pdf",
+      "sha256": "e16b3a8c0023201fafa5825436f5f2dd6f885b92b84e65602b3f50d741c58b6f"
+    },
+    {
+      "model": "TPS26630RGER",
+      "refs": [
+        "U_EFUSE1"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/tps2663.pdf",
+      "status": "已归档PDF",
+      "file": "TPS26630RGER.pdf",
+      "sha256": "bb61314ace65ed37684bd07f541fc676081d7cf81cb24020e7c5c2065bfe16b2",
+      "manufacturer": "Texas Instruments",
+      "version": "SLVSE94G / 2024-06",
+      "coverage_note": "原厂TPS2663系列手册；PDF第43页明确TPS26630RGER，针脚图及功能在第3–4页，RGE0024H封装/焊盘25见第52–53页。",
+      "exact_model_page": 43,
+      "pin_function_pages": [
+        3,
+        4
+      ],
+      "source_kind": "原厂官网PDF"
+    },
+    {
+      "model": "LM4040A30IDBZR",
+      "refs": [
+        "U_OVP5_CLAMP"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/lm4040.pdf",
+      "status": "已归档PDF",
+      "file": "LM4040A30IDBZR.pdf",
+      "sha256": "f43b6b6d3ecd51c8c90b70a7c4630c7e3140822b0073953ed2459df81b251c1c",
+      "manufacturer": "Texas Instruments",
+      "version": "SLOS456Q / 2026-04",
+      "coverage_note": "原厂LM4040系列手册；PDF第32页明确LM4040A30IDBZR，DBZ针脚图及功能在第4页，A30I电气条件在第12页；不得混用LM4040-N型号。",
+      "exact_model_page": 32,
+      "pin_function_pages": [
+        4
+      ],
+      "source_kind": "原厂官网PDF"
+    },
+    {
+      "model": "SN74LVC1G97DBVR",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf",
+      "status": "已归档PDF",
+      "file": "SN74LVC1G97DBVR.pdf",
+      "manufacturer": "Texas Instruments",
+      "original_pages": 41,
+      "source_kind": "原厂PDF",
+      "refs": [
+        "U_CAP_LATCH_CLR"
+      ],
+      "sha256": "53e8bc4d0f966f6e1d8d28987240f17a07e94bec6658ebc92ab322dccae7f416"
+    },
+    {
+      "model": "CSS4J-4026R-1L00F",
+      "refs": [
+        "R_SC_PHASE1",
+        "R_SC_PHASE2"
+      ],
+      "source": "https://www.bourns.com/docs/product-datasheets/css4j-4026.pdf",
+      "status": "已归档PDF",
+      "manufacturer": "Bourns",
+      "coverage_note": "series datasheet",
+      "file": "CSS4J-4026.pdf",
+      "sha256": "27be7941ff95afc1c0a98ac573d33a987279ce2ee55985ed78308d502543e49d"
+    },
+    {
+      "model": "CSS4J-4026R-L500F",
+      "refs": [
+        "R_SC_CAP_CURRENT"
+      ],
+      "source": "https://www.bourns.com/docs/product-datasheets/css4j-4026.pdf",
+      "status": "已归档PDF",
+      "manufacturer": "Bourns",
+      "coverage_note": "series datasheet",
+      "file": "CSS4J-4026.pdf",
+      "sha256": "27be7941ff95afc1c0a98ac573d33a987279ce2ee55985ed78308d502543e49d"
+    },
+    {
+      "model": "ME6216A33XG",
+      "refs": [
+        "U_HOLD_LDO"
+      ],
+      "source": "https://atta.szlcsc.com/upload/public/pdf/source/20180904/C236658_7E9DCCC414B3EC256A51379BEE310666.pdf",
+      "status": "已归档PDF",
+      "manufacturer": "Nanjing Microne Electronics",
+      "coverage_note": "V08",
+      "file": "ME6216A33XG.pdf",
+      "sha256": "12326e49a9399467404cb2c5fea0cf535de0f4730195b6c127b72278d87bd145"
+    },
+    {
+      "model": "UPW2A470MPD",
+      "refs": [
+        "C_PSU15_EXT_IN",
+        "C_PSU12_MAIN_EXT_IN",
+        "C_PSU5_EXT_IN",
+        "C_PSU12_BACKUP_EXT_IN",
+        "C_PSU12_COIL_EXT_IN"
+      ],
+      "source": "https://www.nichicon.com/getmedia/8feec43d-7806-4ea3-a7e2-8f52c40026b3/e-upw.pdf",
+      "status": "已归档PDF",
+      "manufacturer": "Nichicon",
+      "coverage_note": "PW series",
+      "file": "Nichicon_PW.pdf",
+      "sha256": "8be66d99933e7589bc030a3417b3f6b3a6088523fa8ec09b637bf28ecf44b230"
+    },
+    {
+      "model": "UPW2A220MPD",
+      "refs": [
+        "C_PSU15_EXT_OUT",
+        "C_PSU12_MAIN_EXT_OUT",
+        "C_PSU5_EXT_OUT",
+        "C_PSU12_BACKUP_EXT_OUT",
+        "C_PSU12_COIL_EXT_OUT"
+      ],
+      "source": "https://www.nichicon.com/getmedia/8feec43d-7806-4ea3-a7e2-8f52c40026b3/e-upw.pdf",
+      "status": "已归档PDF",
+      "manufacturer": "Nichicon",
+      "coverage_note": "PW series",
+      "file": "Nichicon_PW.pdf",
+      "sha256": "8be66d99933e7589bc030a3417b3f6b3a6088523fa8ec09b637bf28ecf44b230"
+    },
+    {
+      "model": "RSF2WSJR-M-68R",
+      "refs": [
+        "R_PSU5_EXT_PRELOAD"
+      ],
+      "source": "https://yageogroup.com/content/datasheet/asset/file/YAGEO-RSF_DATASHEET",
+      "status": "已归档PDF",
+      "manufacturer": "YAGEO",
+      "coverage_note": "RSF_datasheet_2024v4",
+      "file": "YAGEO_RSF.pdf",
+      "sha256": "7c43489665a7e2848fcb4de40cb9ed51f173673c1eb6e49c0a7e0d89cca75694"
+    },
+    {
+      "model": "RSF2WSJR-M-390R",
+      "refs": [
+        "R_PSU12_MAIN_EXT_PRELOAD",
+        "R_PSU12_BACKUP_EXT_PRELOAD",
+        "R_PSU12_COIL_EXT_PRELOAD"
+      ],
+      "source": "https://yageogroup.com/content/datasheet/asset/file/YAGEO-RSF_DATASHEET",
+      "status": "已归档PDF",
+      "manufacturer": "YAGEO",
+      "coverage_note": "RSF_datasheet_2024v4",
+      "file": "YAGEO_RSF.pdf",
+      "sha256": "7c43489665a7e2848fcb4de40cb9ed51f173673c1eb6e49c0a7e0d89cca75694"
+    },
+    {
+      "model": "RSF2WSJR-M-620R",
+      "refs": [
+        "R_PSU15_EXT_PRELOAD"
+      ],
+      "source": "https://yageogroup.com/content/datasheet/asset/file/YAGEO-RSF_DATASHEET",
+      "status": "已归档PDF",
+      "manufacturer": "YAGEO",
+      "coverage_note": "RSF_datasheet_2024v4",
+      "file": "YAGEO_RSF.pdf",
+      "sha256": "7c43489665a7e2848fcb4de40cb9ed51f173673c1eb6e49c0a7e0d89cca75694"
+    },
+    {
+      "model": "SN74LVC32APWR",
+      "refs": [],
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc32a.pdf",
+      "status": "已归档PDF",
+      "manufacturer": "Texas Instruments",
+      "coverage_note": "Rev U candidate, not inserted in source",
+      "file": "SN74LVC32A.pdf",
+      "sha256": "67988a754d94b6d0a959ec2905b1654f36663987f52fa316d4a78ebc5f8e2f86"
+    },
+    {
+      "model": "SN74LVC1G38DBVR",
+      "refs": [],
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g38.pdf",
+      "status": "已归档PDF",
+      "manufacturer": "Texas Instruments",
+      "coverage_note": "Rev H candidate, not inserted in source",
+      "file": "SN74LVC1G38.pdf",
+      "sha256": "03684e6e8e08cafdc89d171c758c0897836181ed9443ed7810f7e2bbf5871ff2"
+    },
+    {
+      "model": "SN74LVC74APWR",
+      "refs": [],
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc74a.pdf",
+      "status": "已归档PDF",
+      "manufacturer": "Texas Instruments",
+      "coverage_note": "Rev W candidate, not inserted in source",
+      "file": "SN74LVC74A.pdf",
+      "sha256": "5ebad76badd3a17be3544fac926cdf3d78082a6b8b33aa9b824266fabe6d8eb3"
+    },
+    {
+      "model": "SN74LV08APWR",
+      "refs": [],
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lv08a.pdf",
+      "status": "已归档PDF",
+      "manufacturer": "Texas Instruments",
+      "coverage_note": "Rev N candidate, not inserted in source",
+      "file": "SN74LV08A.pdf",
+      "sha256": "4b16bb84dcb43c1b79f957b90697a3a9d219a8385664da76b2e16d215ca05ca0"
+    },
+    {
+      "model": "AQY210EH",
+      "refs": [
+        "U_SER_CHG",
+        "U_SER_DSG"
+      ],
+      "source": "https://mediap.industry.panasonic.eu/assets/download-files/import/semi_eng_ge1a_aqy21_e_dip4.pdf",
+      "status": "已归档PDF",
+      "manufacturer": "Panasonic Industry",
+      "coverage_note": "candidate Form A family",
+      "file": "AQY210EH.pdf",
+      "sha256": "c4f533985988595908b678e7c03b80bdec5bca050bcef2e1f88674d8cfb6666c"
+    },
+    {
+      "model": "AQY410EH",
+      "refs": [
+        "U_CLAMP_CHG",
+        "U_CLAMP_DSG"
+      ],
+      "source": "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/495",
+      "status": "已归档PDF",
+      "manufacturer": "Panasonic Industry",
+      "coverage_note": "candidate Form B catalog 2022.4",
+      "file": "AQY410EH.pdf",
+      "sha256": "d6cec866244e8d75f292415515e4066953a3239a149467405fdcb1f65edc2db9"
+    },
+    {
+      "model": "MMBT5401LT1G",
+      "refs": [
+        "Q_OFF_CHG",
+        "Q_OFF_DSG"
+      ],
+      "source": "https://www.onsemi.com/pdf/datasheet/mmbt5401lt1-d.pdf",
+      "status": "缺少精确原厂PDF",
+      "manufacturer": "onsemi",
+      "coverage_note": "candidate; exact official PDF download returned HTTP 403, missing locally"
+    },
+    {
+      "model": "PMV20XNEA",
+      "refs": [
+        "Q_LED_ARM",
+        "Q_LED_HEALTH"
+      ],
+      "source": "https://assets.nexperia.com/documents/data-sheet/PMV20XNEA.pdf",
+      "status": "已归档PDF",
+      "manufacturer": "Nexperia",
+      "coverage_note": "candidate exact official datasheet",
+      "file": "PMV20XNEA.pdf",
+      "sha256": "424bc3e9faf227dac4cb3d20a385dce9b61e60a8def4287906086488c9242abd"
+    },
+    {
+      "model": "TPS7A1633DGNR",
+      "refs": [
+        "U_GUARD_LDO"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/tps7a16.pdf",
+      "status": "已归档PDF",
+      "manufacturer": "Texas Instruments",
+      "coverage_note": "candidate family datasheet Rev F",
+      "file": "TPS7A16.pdf",
+      "sha256": "4e05cfdef8f64684f9f24b7d1f86e83badb7784c09c96f2ddbcb3dbc0a3b48f80"
+    },
+    {
+      "model": "CGA6N3X7R2A225K230AB",
+      "refs": [
+        "C_B12_IN1",
+        "C_B12_IN2",
+        "C_B12_IN3",
+        "C_B12_OUT1",
+        "C_B12_OUT2",
+        "C_B5_IN1",
+        "C_B5_IN2",
+        "C_B5_IN3",
+        "C_B5_OUT1",
+        "C_B5_OUT2",
+        "C_GUARD_IN",
+        "C_GUARD_OUT1",
+        "C_GUARD_OUT2",
+        "C_GUARD_OUT3",
+        "C_GREF_IN",
+        "C_GREF_OUT",
+        "C_GCMP",
+        "C_GPOR",
+        "C_GAND"
+      ],
+      "source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA6N3X7R2A225K230AB",
+      "status": "缺少精确原厂PDF",
+      "manufacturer": "TDK",
+      "coverage_note": "exact model official page; downloadable official PDF not found"
+    },
+    {
+      "model": "C0805C102F5GACTU",
+      "refs": [
+        "C_SC_RAMP1",
+        "C_SC_RAMP2"
+      ],
+      "source": "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf",
+      "status": "已归档PDF",
+      "manufacturer": "KEMET",
+      "coverage_note": "C0G family datasheet 2025-02-20",
+      "file": "KEM_C1003_C0G_SMD.pdf",
+      "sha256": "02d179914aeb9585eb2229ba8e18ef9d6b01c77c056de2af295d6950a2a5cc0d"
+    },
+    {
+      "model": "INR18650/30P",
+      "refs": [],
+      "source": "https://testmall.evemall.com/consumer-battery/cylindrical-cell/18650-30p",
+      "status": "已归档PDF",
+      "manufacturer": "EVE Energy Co., Ltd.",
+      "coverage_note": "selection reference; batch controlled",
+      "file": "INR18650-30P.pdf",
+      "sha256": "425130f181d013e12425e5cd30049c0ee8b15d235c782c89677bcde767bd6c81"
+    },
+    {
+      "model": "WeAct normal QFN48 V1.0",
+      "refs": [],
+      "source": "https://github.com/WeActStudio/WeActStudio.STM32G431CoreBoard",
+      "status": "已归档PDF",
+      "manufacturer": "WeAct Studio",
+      "coverage_note": "board geometry reference; actual module unconfirmed",
+      "file": "WeAct_normal_QFN48_V1.0_外形.pdf",
+      "sha256": "95f2ebe7fbef3d24eecc3f454991a0c91bb18e21c7caaef8de4fd1a172294158"
+    },
+    {
+      "model": "WAGO 221-412",
+      "refs": [
+        "F_SC_AUX_BAT"
+      ],
+      "source": "https://www.wago.com/gb/installation-terminal-blocks-and-connectors/splicing-connector-with-levers/p/221-412",
+      "status": "已归档PDF",
+      "manufacturer": "WAGO",
+      "coverage_note": "assembly accessory",
+      "file": "221-412.pdf",
+      "sha256": "997c0d75c17b48a17821c9f6325715c7687611dc51ec53b7fefc505adac089ff"
+    },
+    {
+      "model": "C0805C103J1GACTU",
+      "refs": [
+        "C_GCLK_RC1",
+        "C_GCLK_RC2",
+        "C_GCLK_RC3"
+      ],
+      "source": "https://search.kemet.com/component-documentation/download/specsheet/C0805C103J1GACTU",
+      "status": "已归档PDF",
+      "manufacturer": "KEMET",
+      "file": "C0805C103J1GACTU.pdf",
+      "sha256": "9246a34bd86dd72fcca79f70cd4bfb4896369ae19de19c1e62164d7edf36f0b0",
+      "coverage_note": "exact 10 nF, 5%, 100 VDC C0G 0805/2012; source value annotation is separate from MPN"
+    },
+    {
+      "model": "SN74LVC1G74DCUR",
+      "refs": [
+        "U_GLATCH"
+      ],
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf",
+      "status": "已归档PDF",
+      "manufacturer": "Texas Instruments",
+      "file": "SN74LVC1G74.pdf",
+      "sha256": "e46a5a867fec742290000dca5ed3b291535f3c4418ef2ae267acc4ab51b26d8a",
+      "coverage_note": "DCU8 exact package variant candidate; do not reuse DGK8 footprint mapping; library/package verification remains with FOC/library owner and board owner"
+    },
+    {
+      "model": "RT0805BRD0729K4L",
+      "refs": [
+        "R_BCUT5_ILIM",
+        "R_BCUT12_ILIM"
+      ],
+      "source": "https://yageogroup.com/content/datasheet/asset/file/pyu-rt_1-to-0-01_rohs_l",
+      "status": "已归档PDF",
+      "manufacturer": "YAGEO",
+      "file": "YAGEO_RT_PYU_RT.pdf",
+      "sha256": "00a9148c2958122200e8a93292e389392a795adcfe40562d6ca4f690d1e5d7d1",
+      "coverage_note": "RT precision thin-film series family datasheet; candidate 29.4 kOhm"
+    },
+    {
+      "model": "RT0805BRD0727K4L",
+      "refs": [
+        "R_BCUT5_UVT",
+        "R_BCUT5_PGT"
+      ],
+      "source": "https://yageogroup.com/content/datasheet/asset/file/pyu-rt_1-to-0-01_rohs_l",
+      "status": "已归档PDF",
+      "manufacturer": "YAGEO",
+      "file": "YAGEO_RT_PYU_RT.pdf",
+      "sha256": "00a9148c2958122200e8a93292e389392a795adcfe40562d6ca4f690d1e5d7d1",
+      "coverage_note": "RT precision thin-film series family datasheet; candidate 27.4 kOhm"
+    },
+    {
+      "model": "RT0805BRD0775KL",
+      "refs": [
+        "R_BCUT12_UVT",
+        "R_BCUT12_PGT"
+      ],
+      "source": "https://yageogroup.com/content/datasheet/asset/file/pyu-rt_1-to-0-01_rohs_l",
+      "status": "已归档PDF",
+      "manufacturer": "YAGEO",
+      "file": "YAGEO_RT_PYU_RT.pdf",
+      "sha256": "00a9148c2958122200e8a93292e389392a795adcfe40562d6ca4f690d1e5d7d1",
+      "coverage_note": "RT precision thin-film series family datasheet; candidate 75 kOhm"
+    },
+    {
+      "model": "BQ25756RRVR",
+      "manufacturer": "Texas Instruments",
+      "source": "https://www.ti.com/lit/ds/symlink/bq25756.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/bq25756.pdf",
+      "file": "BQ25756.pdf",
+      "sha256": "75faf67e43da19bb009862ce2f33909600b9aed4e2a521134d8be52686583b0e",
+      "pages": 83,
+      "refs": [],
+      "status": "已归档原厂PDF；新增充电候选，未绑定板级源",
+      "version": "SLUSEN5A, August 2026",
+      "candidate": true,
+      "board_source_bound": false
+    },
+    {
+      "model": "ISO1640BDR",
+      "manufacturer": "Texas Instruments",
+      "source": "https://www.ti.com/lit/ds/symlink/iso1640.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/iso1640.pdf",
+      "file": "ISO1640.pdf",
+      "sha256": "5dc75560d1771a015ffc85d0bebbcf492f963a23a19eb6d2c7631ad2b01885a1",
+      "pages": 58,
+      "refs": [],
+      "status": "已归档原厂PDF；新增充电候选，未绑定板级源",
+      "version": "SLLSFC2D, September 2021",
+      "candidate": true,
+      "board_source_bound": false
+    },
+    {
+      "model": "LM5069MM-1",
+      "manufacturer": "Texas Instruments",
+      "source": "https://www.ti.com/lit/ds/symlink/lm5069.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/lm5069.pdf",
+      "file": "LM5069.pdf",
+      "sha256": "d60d8106a6e8113900ff8b9576dd959942fa7169742baf0beeb30684d4d64681",
+      "pages": 39,
+      "refs": [],
+      "status": "已归档原厂PDF；新增充电候选，未绑定板级源",
+      "version": "SNVS452G, January 2020",
+      "candidate": true,
+      "board_source_bound": false
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "source": "https://www.ti.com/lit/ds/symlink/tps2553-1.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/tps2553-1.pdf",
+      "file": "TPS2553-1.pdf",
+      "sha256": "88e453700cea2b263cdb5b44fce1e883e0f6d3b975457f879ac1423eeea42071",
+      "pages": 44,
+      "candidate": true,
+      "board_source_bound": false,
+      "status": "原厂PDF已归档，待稳定PARTS绑定",
+      "model": "TPS2553DBVR-1",
+      "refs": [],
+      "version": "SLVS841F, August 2016"
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "source": "https://www.ti.com/lit/ds/symlink/tps709.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/tps709.pdf",
+      "file": "TPS709.pdf",
+      "sha256": "8c14e3efae738a27b857b789aa87369de9037a8ef3616a9f71a423587cdc6949",
+      "pages": 43,
+      "candidate": true,
+      "board_source_bound": false,
+      "status": "原厂PDF已归档，待稳定PARTS绑定",
+      "model": "TPS70933DBVR",
+      "refs": [],
+      "version": "SBVS186H, July 2021"
+    },
+    {
+      "manufacturer": "Coilcraft",
+      "source": "https://www.coilcraft.com/getmedia/755c440a-d891-4d48-aaf8-866731f65aab/xgl1313.pdf",
+      "resolved_source": "https://www.coilcraft.com/getmedia/755c440a-d891-4d48-aaf8-866731f65aab/xgl1313.pdf",
+      "file": "XGL1313.pdf",
+      "sha256": "1789c4989b446eaca8b6502c7e2cac3e902d53f6ddc3349fbbb5e27ce2efed94",
+      "pages": 3,
+      "candidate": true,
+      "board_source_bound": false,
+      "status": "原厂PDF已归档，待稳定PARTS绑定",
+      "model": "XGL1313-153MED",
+      "refs": [],
+      "version": "Document 1730, February 19 2026"
+    },
+    {
+      "manufacturer": "Panasonic",
+      "source": "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1255.pdf",
+      "resolved_source": "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1255.pdf",
+      "file": "Panasonic_FS.pdf",
+      "sha256": "d06213365eba12ed3737124b30bb8d0a29c40f0f2479fbb309cc36e963a71824",
+      "pages": 12,
+      "candidate": true,
+      "board_source_bound": false,
+      "status": "原厂PDF已归档，待稳定PARTS绑定",
+      "model": "EEUFS2A221",
+      "refs": [],
+      "product_page": "https://industrial.panasonic.com/ww/products/pt/aluminum-cap-lead/models/EEUFS2A221",
+      "version": "FS series, September 1 2025"
+    },
+    {
+      "manufacturer": "Vishay",
+      "source": "https://www.vishay.com/docs/31006/tnpw.pdf",
+      "resolved_source": "https://www.vishay.com/docs/31006/tnpw.pdf",
+      "file": "Vishay_TNPW.pdf",
+      "sha256": "9f27b9bb2294704209016bfb94a600f921f58853994167e85c1f9f6f442b7026",
+      "pages": 9,
+      "candidate": true,
+      "board_source_bound": false,
+      "status": "原厂PDF已归档，待稳定PARTS绑定",
+      "model": "TNPW1206249KBETA",
+      "refs": [],
+      "version": "Document 31006, February 18 2025"
+    },
+    {
+      "manufacturer": "Vishay",
+      "source": "https://www.vishay.com/docs/31006/tnpw.pdf",
+      "resolved_source": "https://www.vishay.com/docs/31006/tnpw.pdf",
+      "file": "Vishay_TNPW.pdf",
+      "sha256": "9f27b9bb2294704209016bfb94a600f921f58853994167e85c1f9f6f442b7026",
+      "pages": 9,
+      "candidate": true,
+      "board_source_bound": false,
+      "status": "原厂PDF已归档，待稳定PARTS绑定",
+      "model": "TNPW12069K65BETA",
+      "refs": [],
+      "version": "Document 31006, February 18 2025"
+    },
+    {
+      "model": "SMCJ48CA",
+      "manufacturer": "Littelfuse",
+      "file": "SMCJ43A.pdf",
+      "sha256": "29531c61c5717811b8d6ddd669cfe41d639e747c71405e68085981af736b5942",
+      "source": "https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_smcj_datasheet.pdf?assetguid=37388813-0d6d-4329-969b-1aa8b7614ac1",
+      "refs": [],
+      "candidate": true,
+      "board_source_bound": false,
+      "status": "复用既有Littelfuse SMCJ系列原厂PDF，含SMCJ48CA行",
+      "version": "Revised JC.10/29/20",
+      "verification_boundary": "77.4V对应规定脉冲条件，不是任意瞬态固定钳位"
+    }
+  ],
+  "documents": [
+    {
+      "file": "SPFJ100.X.pdf",
+      "source": "https://www.mouser.cn/datasheet/2/240/Littelfuse_Fuse_Solar_SPFJ_Datasheet-370166.pdf",
+      "resolved_source": "https://www.mouser.cn/datasheet/2/240/Littelfuse_Fuse_Solar_SPFJ_Datasheet-370166.pdf",
+      "sha256": "c78b156355c0ac917f405b4afee6d49f82443b0f794cf01d882c840b36ae6650",
+      "pages": 5,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\分板整理\\数据手册补下载\\SPFJcn.pdf",
+      "download_source": "https://www.mouser.cn/datasheet/2/240/Littelfuse_Fuse_Solar_SPFJ_Datasheet-370166.pdf",
+      "manufacturer": "Littelfuse",
+      "original_pages": 4,
+      "version": "2021-08-27",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "refs": [
+        "F1",
+        "F2",
+        "F_BACKUP"
+      ]
+    },
+    {
+      "file": "OTDC100E02.pdf",
+      "source": "https://search.abb.com/library/Download.aspx?DocumentID=1SCC301021C0202&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "resolved_source": "https://search.abb.com/library/Download.aspx?DocumentID=1SCC301021C0202&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "sha256": "865fcadb337942048c5621ecc819c530eb05d4f54434f9efc4f282ba6cc076e7",
+      "pages": 108,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\分板整理\\数据手册补下载\\ABB_search.pdf",
+      "refs": [
+        "K1"
+      ]
+    },
+    {
+      "file": "SMCJ43A.pdf",
+      "source": "https://www.littelfuse.com/products/overvoltage-protection/tvs-diodes/surface-mount/smcj/smcj43a",
+      "resolved_source": "https://www.littelfuse.com/products/overvoltage-protection/tvs-diodes/surface-mount/smcj/smcj43a",
+      "sha256": "29531c61c5717811b8d6ddd669cfe41d639e747c71405e68085981af736b5942",
+      "pages": 6,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\封装资料\\Littelfuse_SMCJ43A.pdf",
+      "refs": [
+        "D_TVS",
+        "D_AUXTVS",
+        "D_COIL_CLAMP",
+        "D_SC_AUX_TVS"
+      ]
+    },
+    {
+      "file": "KLKD001.T.pdf",
+      "source": "https://jlcpcb.com/partdetail/Littelfuse-KLKD004_T/C142947",
+      "resolved_source": "https://jlcpcb.com/partdetail/Littelfuse-KLKD004_T/C142947",
+      "sha256": "f6b778509cc7388562ab41494f96433fd0a752e150335819b59b90cb16ff50f1",
+      "pages": 6,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\分板整理\\数据手册补下载\\C142947.pdf",
+      "download_source": "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8590166649510141952-C142947.pdf",
+      "manufacturer": "Littelfuse",
+      "original_pages": 6,
+      "version": "2017-06-12",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "refs": [
+        "F_AUXBAT",
+        "F_AUXBUS",
+        "F_BACKUP_AUX",
+        "F_COIL_AUX",
+        "F_SC_AUX_BAT",
+        "F_PRE"
+      ]
+    },
+    {
+      "file": "STPS2H100A.pdf",
+      "source": "https://jlcpcb.com/partdetail/ST-STPS2H100A/C81548",
+      "resolved_source": "https://jlcpcb.com/partdetail/ST-STPS2H100A/C81548",
+      "sha256": "ca963ae1412c1281744defbc3b6cb591c283ec5e5e48ebb023ed74ce64d73475",
+      "pages": 12,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\分板整理\\数据手册补下载\\C81548.pdf",
+      "download_source": "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588879952373043200-C81548.pdf",
+      "manufacturer": "STMicroelectronics",
+      "original_pages": 12,
+      "version": "2013-06 / DocID6115 Rev8",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "refs": [
+        "D_AUXBAT",
+        "D_AUXBUS",
+        "D_SC_OR_BAT",
+        "D_SC_OR_CAP"
+      ]
+    },
+    {
+      "file": "B2B-XH-A_LF_SN.pdf",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+      "resolved_source": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+      "sha256": "9426b136902f11900825077535e5c65032b7fbc31ffb59c5e9e1f463bb20fb90",
+      "pages": 9,
+      "cache_source": "B2B-XH-A_LF_SN.pdf",
+      "refs": [
+        "J_FAN",
+        "J_AUX5",
+        "J_ESTOP",
+        "J_DUMP_TH",
+        "J_BMS",
+        "J_NTC",
+        "J_AUXBAT_IN",
+        "J_AUXBUS_IN",
+        "J_COIL",
+        "J_DUMP_TH_B",
+        "J_MOD15_IN",
+        "J_MOD15_OUT",
+        "J_MAIN12_IN",
+        "J_MAIN12_OUT",
+        "J_MOD5_IN",
+        "J_BACKUP_AUX_IN",
+        "J_BACKUP_AUX_OUT",
+        "J_COIL_AUX_IN",
+        "J_COIL_AUX_OUT",
+        "J_CAN",
+        "J_HALL",
+        "J_PSU15_IN",
+        "J_PSU15_OUT",
+        "J_PSU12_MAIN_IN",
+        "J_PSU12_MAIN_OUT",
+        "J_PSU5_IN",
+        "J_PSU5_OUT",
+        "J_PSU12_BACKUP_IN",
+        "J_PSU12_BACKUP_OUT",
+        "J_PSU12_COIL_IN",
+        "J_PSU12_COIL_OUT"
+      ]
+    },
+    {
+      "file": "M20-7831242.pdf",
+      "source": "https://content.harwin.com/asset/d6e23765-84b2-4c9c-8c92-6f718b2b03f9/DRG-00386-Technical-Drawing-Datasheet-M20-783-pdf.pdf",
+      "resolved_source": "https://content.harwin.com/asset/d6e23765-84b2-4c9c-8c92-6f718b2b03f9/DRG-00386-Technical-Drawing-Datasheet-M20-783-pdf.pdf",
+      "sha256": "1d9e362c05cbd275228b8920da59c5b1719dac5d960838b61b94693021be26a5",
+      "pages": 1,
+      "cache_source": "M20-7831242.pdf",
+      "refs": [
+        "J_CORE_P1",
+        "J_CORE_P2",
+        "J_SC_CORE_P1",
+        "J_SC_CORE_P2"
+      ]
+    },
+    {
+      "file": "DRV8353SRTAR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/drv8353.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/drv8353.pdf",
+      "sha256": "8bb3a1d29ec9ea079d0ef452a2a0c614511f37575756b11a03646d8a82ed758c",
+      "pages": 101,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\U3原厂资料.pdf",
+      "refs": [
+        "U3"
+      ]
+    },
+    {
+      "file": "IPT015N10N5ATMA1.pdf",
+      "source": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipt015n10n5-datasheet-en.pdf",
+      "resolved_source": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipt015n10n5-datasheet-en.pdf",
+      "sha256": "2f4a45447ae543c9202acbf012dd3859d784d8ae64348617bdc63eeadc142e3c",
+      "pages": 11,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\功率管原厂资料.pdf",
+      "refs": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q9",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q_COIL",
+        "Q_BACKUP",
+        "Q_SC_HVA",
+        "Q_SC_HVB",
+        "Q_SC_LVA",
+        "Q_SC_LVB",
+        "Q_SC_1H",
+        "Q_SC_1L",
+        "Q_SC_2H",
+        "Q_SC_2L",
+        "Q_BAT_BLOCK1",
+        "Q_BAT_BLOCK2"
+      ]
+    },
+    {
+      "file": "BZT52H-C15_115.pdf",
+      "source": "https://assets.nexperia.com/documents/data-sheet/BZT52H_SER.pdf",
+      "resolved_source": "https://assets.nexperia.com/documents/data-sheet/BZT52H_SER.pdf",
+      "sha256": "a5e54de45bdf1af712c2d9fdfb0fd092804cd83b26eb66e3656b12dea0c8b592",
+      "pages": 14,
+      "cache_source": "BZT52H-C15_115.pdf",
+      "refs": [
+        "DGS1",
+        "DGS2",
+        "DGS3",
+        "DGS4",
+        "DGS5",
+        "DGS6",
+        "DGS7",
+        "DGS8",
+        "DGS9",
+        "DGS10",
+        "DGS11",
+        "DGS12",
+        "DGS13",
+        "D_COIL_GS",
+        "DGS13_B",
+        "D_SC_GBIAS_GS"
+      ]
+    },
+    {
+      "file": "TLV3202AIDGKR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/tlv3202.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/tlv3202.pdf",
+      "sha256": "1777bba814c74772bb54c6f1f56702985039043ce2fb2affaf996a83eaf1076e",
+      "pages": 40,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\U6原厂资料.pdf",
+      "refs": [
+        "U4",
+        "U5",
+        "U6"
+      ]
+    },
+    {
+      "file": "BAT54H_115.pdf",
+      "source": "https://assets.nexperia.com/documents/data-sheet/BAT54H.pdf",
+      "resolved_source": "https://assets.nexperia.com/documents/data-sheet/BAT54H.pdf",
+      "sha256": "3b7856e29d2fbe6713716ba8076f249ea94b5b79210989571cd0e68d6d2c03ff",
+      "pages": 8,
+      "cache_source": "BAT54H_115.pdf",
+      "refs": [
+        "DOCP_AH",
+        "DOCP_AL",
+        "DOCP_BH",
+        "DOCP_BL",
+        "DOCP_CH",
+        "DOCP_CL",
+        "D_VBH",
+        "D_VBL",
+        "D_RDY",
+        "D_NRST"
+      ]
+    },
+    {
+      "file": "INA241A2IDGKR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/ina241a.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/ina241a.pdf",
+      "sha256": "d0f0d3a73c1bc2b4fe42d9cd6a4270c316d1164f8f86dc027f802428950029e8",
+      "pages": 44,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\U7原厂资料.pdf",
+      "refs": [
+        "U7",
+        "U_SC_CAP_CURRENT",
+        "U_BRIDGE_SENSE"
+      ]
+    },
+    {
+      "file": "B57560G1103G000.pdf",
+      "source": "https://www.mouser.cn/datasheet/2/400/NTC_Glass_enc_sensors_G1560-1317164.pdf",
+      "resolved_source": "https://www.mouser.cn/datasheet/2/400/NTC_Glass_enc_sensors_G1560-1317164.pdf",
+      "sha256": "aff08779cbb5799fd2907387362a1751c7ca1526467a4da76a6678a9d19342ca",
+      "pages": 27,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\分板整理\\数据手册补下载\\TDKcn.pdf",
+      "download_source": "https://www.mouser.cn/datasheet/2/400/NTC_Glass_enc_sensors_G1560-1317164.pdf",
+      "manufacturer": "TDK/EPCOS",
+      "original_pages": 26,
+      "version": "2018-01",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "refs": [
+        "NTC1"
+      ]
+    },
+    {
+      "file": "SN74HC74PWR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74hc74.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/sn74hc74.pdf",
+      "sha256": "d1e57133ca40b595c670688718807c367b555b6fe57144c881d629de18230351",
+      "pages": 41,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\U8原厂资料.pdf",
+      "refs": [
+        "U8"
+      ]
+    },
+    {
+      "file": "SN74LVC08APWR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc08a.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/sn74lvc08a.pdf",
+      "sha256": "e5af3b29e61782a243d18a2e0a24e0f8bbda23a4c46cdea98b01dae91a96e97d",
+      "pages": 45,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\U10原厂资料.pdf",
+      "refs": [
+        "U9",
+        "U10"
+      ]
+    },
+    {
+      "file": "SN74LVC1G08DBVR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf",
+      "sha256": "30b963cc44233cf3ca35c891ff987c8323a2244ecc765e23296ec96ca4b42666",
+      "pages": 50,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\U_PWM_GATE原厂资料.pdf",
+      "refs": [
+        "U24"
+      ]
+    },
+    {
+      "file": "SN74LVC1G17DBVR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+      "sha256": "c76fa723fac4502423967a1aa087dd669106b52b8de620c024b26e56f5d59309",
+      "pages": 53,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\U11原厂资料.pdf",
+      "refs": [
+        "U11",
+        "U_GCLK",
+        "U_SC_FAULT_BUF"
+      ]
+    },
+    {
+      "file": "MMBT3904LT1G.pdf",
+      "source": "https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf",
+      "resolved_source": "https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf",
+      "sha256": "7ef6d370b7e72c9f047c1ec95feaa40c605e1f107eb11bc0175e6fdfd5e707c4",
+      "pages": 11,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\分板整理\\数据手册补下载\\ON.pdf",
+      "refs": [
+        "Q14",
+        "Q16",
+        "Q_BTHERM",
+        "Q_SC_GBIAS_NPN"
+      ]
+    },
+    {
+      "file": "TPS3808G33DBVR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "sha256": "74d889c0f68af88032f1633c26381817cc03e10d9fd3b4c177a044ad3ed86eed",
+      "pages": 39,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\U12原厂资料.pdf",
+      "refs": [
+        "U12"
+      ]
+    },
+    {
+      "file": "REF5025ID.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/ref50.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/ref50.pdf",
+      "sha256": "d2da9488194dba11732c85c498b563c12e0bb6b3e2d21631022dde9bff51a13d",
+      "pages": 52,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\U13原厂资料.pdf",
+      "refs": [
+        "U13",
+        "U20"
+      ]
+    },
+    {
+      "file": "TLV1704AIPWR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/tlv1704.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/tlv1704.pdf",
+      "sha256": "b971c8ca9ae7da43d67fa3486f202e6e688d8f5cc4b220268473fc0b4904c42b",
+      "pages": 39,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\U14原厂资料.pdf",
+      "refs": [
+        "U14",
+        "U21"
+      ]
+    },
+    {
+      "file": "UCC27517DBVR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/ucc27517.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/ucc27517.pdf",
+      "sha256": "6b7b8c088746010dfbce36367a03de3e971a91bd6fb705adad0c6258d44bf90c",
+      "pages": 37,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\U15原厂资料.pdf",
+      "refs": [
+        "U15",
+        "U25",
+        "U22"
+      ]
+    },
+    {
+      "file": "STPS60150CT.pdf",
+      "source": "https://www.st.com/resource/en/datasheet/stps60150c.pdf",
+      "resolved_source": "https://www.st.com/resource/en/datasheet/stps60150c.pdf",
+      "sha256": "0a27fcfbd88927d6169d7705db4d62bb80f58ee5893c7567d29bc69e6b34a371",
+      "pages": 10,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\封装资料\\ST_STPS60150CT.pdf",
+      "refs": [
+        "D_FREE",
+        "D_FREE_B"
+      ]
+    },
+    {
+      "file": "TCAN1051HGVDR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/tcan1051h.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/tcan1051h.pdf",
+      "sha256": "9d4561ff8b0892f760ceeb5299722c0dec5f3957cf0ca0d48b13bb9e1a2d3698",
+      "pages": 37,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\U16原厂资料.pdf",
+      "refs": [
+        "U16",
+        "U_SC_CAN"
+      ]
+    },
+    {
+      "file": "M20-9990246.pdf",
+      "source": "https://content.harwin.com/asset/640f59f4-1860-40fe-82ef-f2a104ffa7d8/DRG-00479-Technical-Drawing-Datasheet-M20-999-pdf.pdf",
+      "resolved_source": "https://content.harwin.com/asset/640f59f4-1860-40fe-82ef-f2a104ffa7d8/DRG-00479-Technical-Drawing-Datasheet-M20-999-pdf.pdf",
+      "sha256": "03044d5d36a23a934970f60d11482d94366ca23c70fce8a524293ce1048f820f",
+      "pages": 1,
+      "cache_source": "M20-9990246.pdf",
+      "refs": [
+        "JP_TERM"
+      ]
+    },
+    {
+      "file": "PESD2CAN_215.pdf",
+      "source": "https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf",
+      "resolved_source": "https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf",
+      "sha256": "5ef9add81450bd4ec67aff0bc4bc3d55ed232a06708066e51c0578d5ca563c67",
+      "pages": 13,
+      "cache_source": "PESD2CAN_215.pdf",
+      "refs": [
+        "D_CAN"
+      ]
+    },
+    {
+      "file": "0467.250NR.pdf",
+      "source": "https://jlcpcb.com/partdetail/Littelfuse-0467250NR/C99556",
+      "resolved_source": "https://jlcpcb.com/partdetail/Littelfuse-0467250NR/C99556",
+      "sha256": "2bc742555b22e91c1ac4b7572367f81ddb2d9eefecba1a3fb942f08f4fa1f045",
+      "pages": 3,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\分板整理\\数据手册补下载\\C99556.pdf",
+      "download_source": "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588917317254459392-C99556.pdf",
+      "manufacturer": "Littelfuse",
+      "original_pages": 3,
+      "version": "2015-04-30",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "refs": [
+        "F_HALL"
+      ]
+    },
+    {
+      "file": "SN74LVC3G17DCUR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc3g17.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/sn74lvc3g17.pdf",
+      "sha256": "bcb966e7fbb682bb7f330c544326e32865abd9eb87c5ce7b6606f3447cb4a84c",
+      "pages": 27,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\U17原厂资料.pdf",
+      "refs": [
+        "U17"
+      ]
+    },
+    {
+      "file": "PESD5V0S1BA_115.pdf",
+      "source": "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1BA.pdf",
+      "resolved_source": "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1BA.pdf",
+      "sha256": "6546e415b8885ea3790c91629034c6b4e5c6961d5fde734e55dfa479dd8dc49a",
+      "pages": 11,
+      "cache_source": "PESD5V0S1BA_115.pdf",
+      "refs": [
+        "D_HA",
+        "D_HB",
+        "D_HC"
+      ]
+    },
+    {
+      "file": "MF50151V1-B00U-A99.pdf",
+      "source": "https://www.sunon.com/eu/MANAGE/Docs/PRODUCT/299/367/Sunon%20DC%20Brushless%20Fan%20%26%20Blower_%28240-E%29.pdf",
+      "resolved_source": "https://www.sunon.com/eu/MANAGE/Docs/PRODUCT/299/367/Sunon%20DC%20Brushless%20Fan%20%26%20Blower_%28240-E%29.pdf",
+      "sha256": "1f636c4966db52396d8c5ff1949c3ef95abaca6f4e5ba57d00c3416881c90aa6",
+      "pages": 89,
+      "cache_source": "MF50151V1-B00U-A99.pdf",
+      "refs": [
+        "FAN1"
+      ]
+    },
+    {
+      "file": "HW1B-X401R-MAU.pdf",
+      "source": "https://files.plytix.com/api/v1.1/file/public_files/pim/assets/e4/bc/8f/66/668fbce4238b3100010b8ed4/texts/56/94/12/69/691294566178a9ce4f4fe382/idec-hw-emergency-stop-push-button-switches-datasheet.pdf",
+      "resolved_source": "https://files.plytix.com/api/v1.1/file/public_files/pim/assets/e4/bc/8f/66/668fbce4238b3100010b8ed4/texts/56/94/12/69/691294566178a9ce4f4fe382/idec-hw-emergency-stop-push-button-switches-datasheet.pdf",
+      "sha256": "3e03df4fa5d8f8f1ba9fc0d1e08292b8ab5d04383b5cc0ad46374eb5c6d7081a",
+      "pages": 7,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\分板整理\\数据手册补下载\\IDEC_mirror.pdf",
+      "download_source": "https://files.plytix.com/api/v1.1/file/public_files/pim/assets/e4/bc/8f/66/668fbce4238b3100010b8ed4/texts/56/94/12/69/691294566178a9ce4f4fe382/idec-hw-emergency-stop-push-button-switches-datasheet.pdf",
+      "manufacturer": "IDEC",
+      "original_pages": 7,
+      "version": "2025-06 / EP5204A",
+      "source_kind": "公开镜像中的原厂PDF原文",
+      "refs": [
+        "S_ESTOP"
+      ]
+    },
+    {
+      "file": "67L080P.pdf",
+      "source": "https://jlcpcb.com/partdetail/SensataTech-TO_220/C17231657",
+      "resolved_source": "https://jlcpcb.com/partdetail/SensataTech-TO_220/C17231657",
+      "sha256": "9594546e47a02682a491c0b8a2c05b8813faf6692b89db2f9228240dfe06f548",
+      "pages": 5,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\分板整理\\数据手册补下载\\C17231657.pdf",
+      "download_source": "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8602841592969641984-C17231657.pdf",
+      "manufacturer": "Sensata",
+      "original_pages": 5,
+      "version": "2020",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "refs": [
+        "S_THERM",
+        "S_BTHERM"
+      ]
+    },
+    {
+      "file": "TPS3431SDRBR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/tps3431.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/tps3431.pdf",
+      "sha256": "99bf5dbfffe06e8f85d9a86cfb777a0151e85b4a103033bc025f4897a0bdc6f3",
+      "pages": 31,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\整改资料\\看门狗.pdf",
+      "refs": [
+        "U19"
+      ]
+    },
+    {
+      "file": "G9EA-1-B_DC12.pdf",
+      "source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en_g9ea_ec.pdf",
+      "resolved_source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en_g9ea_ec.pdf",
+      "sha256": "5914fb25ff1fbb42ce5b03a193bbd806fc32f5d2d48a8bc1e090b93586bc4577",
+      "pages": 24,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\整改资料\\主接触器.pdf",
+      "refs": [
+        "K2"
+      ]
+    },
+    {
+      "file": "URB4815YMD-10WR3.pdf",
+      "source": "https://h.hlktech.com/download/DCDC电源模块10W系列/1/UR(A)B_YMD-10WR3系列技术手册V1.7.pdf",
+      "resolved_source": "https://h.hlktech.com/download/DCDC电源模块10W系列/1/UR(A)B_YMD-10WR3系列技术手册V1.7.pdf",
+      "sha256": "1c55e95b4c6457f75984519c61ba2c544b15f9e65016e8ebf4cc286b545ff49d",
+      "pages": 6,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\RevG\\海凌科系列手册V1.7.pdf",
+      "refs": [
+        "PSU15_EXT",
+        "PSU12_MAIN_EXT",
+        "PSU12_BACKUP_EXT",
+        "PSU12_COIL_EXT",
+        "PSU5_EXT"
+      ]
+    },
+    {
+      "file": "LM5164DDAR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/lm5164.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/lm5164.pdf",
+      "sha256": "cce03619fbe13951eea47458cd45e140361637d8fef32ae143b82b16d597e32d",
+      "pages": 38,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\U1原厂资料.pdf",
+      "refs": [
+        "U_SC_10V"
+      ]
+    },
+    {
+      "file": "LMR33630ADDAR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/lmr33630.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/lmr33630.pdf",
+      "sha256": "3b0920a4e56a0b3f5f214a6317d3c06cff6e541e5054024adc31c30acc50c04a",
+      "pages": 60,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\元件工况审查\\U2原厂资料.pdf",
+      "refs": [
+        "U_SC_5V"
+      ]
+    },
+    {
+      "file": "LM5170PHPR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/lm5170.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/lm5170.pdf",
+      "sha256": "0e982378f8aa2f9577c007b4c9c24e2cfb6804738d559b6ae2d8de3acb53eddc",
+      "pages": 73,
+      "cache_source": "LM5170PHPR.pdf",
+      "refs": [
+        "U_SC_CTRL"
+      ]
+    },
+    {
+      "file": "STPS1H100A.pdf",
+      "source": "https://jlcpcb.com/partdetail/ST-STPS1H100U/C165939",
+      "resolved_source": "https://jlcpcb.com/partdetail/ST-STPS1H100U/C165939",
+      "sha256": "880c1909c39f8494d67353f7dc166e7ee17ab5d8d20f33a8b4d89bbeca2c37ed",
+      "pages": 10,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\分板整理\\数据手册补下载\\C165939.pdf",
+      "download_source": "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588880490366947328-C165939.pdf",
+      "manufacturer": "STMicroelectronics",
+      "original_pages": 10,
+      "version": "2008-09 Rev6",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "refs": [
+        "D_SC_BOOT1",
+        "D_SC_BOOT2",
+        "D_SC_AFE_HOLD"
+      ]
+    },
+    {
+      "file": "LTC6811IG-1_PBF.pdf",
+      "source": "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6811-1-6811-2.pdf",
+      "resolved_source": "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6811-1-6811-2.pdf",
+      "sha256": "1553f3d5c5238924fe721ecd56358670de349dee3538f23002cd96e38f0d711b",
+      "pages": 92,
+      "cache_source": "LTC6811IG-1_PBF.pdf",
+      "refs": [
+        "U_SC_AFE"
+      ]
+    },
+    {
+      "file": "WeAct_normal_QFN48_V1.0.pdf",
+      "source": "https://github.com/WeActStudio/WeActStudio.STM32G4CoreBoard",
+      "resolved_source": "https://github.com/WeActStudio/WeActStudio.STM32G4CoreBoard",
+      "sha256": "57eca2e3467abd45bd6d4bc993eb11e9c83389a7c390da2543c3f20cfc2c640d",
+      "pages": 1,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\运行复检\\WeAct-QFN48官方.pdf"
+    },
+    {
+      "file": "LM74700QDBVRQ1.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/lm74700-q1.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/lm74700-q1.pdf",
+      "sha256": "e16b3a8c0023201fafa5825436f5f2dd6f885b92b84e65602b3f50d741c58b6f",
+      "pages": 36,
+      "cache_source": "LM74700QDBVRQ1.pdf",
+      "refs": [
+        "U_BAT_BLOCK1",
+        "U_BAT_BLOCK2"
+      ]
+    },
+    {
+      "file": "TPS3700DDCR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/tps3700.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/tps3700.pdf",
+      "sha256": "3bb7daed20b154bf22ded78e23269c6437eb587400b89bce0f543813df94ebf0",
+      "pages": 27,
+      "cache_source": "TPS3700DDCR.pdf",
+      "refs": [
+        "U_SC_GBIAS_MON",
+        "U_BACKUP_MON",
+        "U_MAIN_MON",
+        "U_CAP_RX_MON"
+      ]
+    },
+    {
+      "file": "1055644.pdf",
+      "source": "https://www.sonepar.fr/catalog/fr-fr/products/phoenix-contact-hv-m8-2-nff-bloc-de-onction-de-puissance-a-tige-filtee-00126669275",
+      "resolved_source": "https://fra-connect.mo.cloudinary.net/PRODUCT/DOCUMENT/126/phoenix-contact-1055644-FR.pdf?ts=1722892192446",
+      "sha256": "530c4df57fce70996e025b9cf84c120596f1ca39dc8eb23f983a9d334ce754ed",
+      "pages": 18,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\分板整理\\数据手册补下载\\1055644.pdf",
+      "download_source": "https://fra-connect.mo.cloudinary.net/PRODUCT/DOCUMENT/126/phoenix-contact-1055644-FR.pdf?ts=1722892192446",
+      "manufacturer": "Phoenix Contact",
+      "original_pages": 18,
+      "version": "2024-01-09 / 法文",
+      "source_kind": "商城镜像中的原厂PDF原文",
+      "refs": [
+        "J_BAT_1",
+        "J_BAT_2",
+        "J_MOTOR_1",
+        "J_MOTOR_2",
+        "J_MOTOR_3",
+        "J_DUMP_1",
+        "J_DUMP_2",
+        "J_DUMP_1_B",
+        "J_DUMP_2_B"
+      ]
+    },
+    {
+      "file": "TPS26630RGER.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/tps2663.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/tps2663.pdf",
+      "sha256": "bb61314ace65ed37684bd07f541fc676081d7cf81cb24020e7c5c2065bfe16b2",
+      "pages": 59,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\整改资料\\eFuse核对\\TPS2663.pdf",
+      "manufacturer": "Texas Instruments",
+      "version": "SLVSE94G / 2024-06",
+      "source_kind": "原厂官网PDF",
+      "coverage_note": "原厂TPS2663系列手册；PDF第43页明确TPS26630RGER，针脚图及功能在第3–4页，RGE0024H封装/焊盘25见第52–53页。",
+      "exact_model_page": 43,
+      "pin_function_pages": [
+        3,
+        4
+      ],
+      "refs": [
+        "U_EFUSE1"
+      ]
+    },
+    {
+      "file": "LM4040A30IDBZR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/lm4040.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/lm4040.pdf",
+      "sha256": "f43b6b6d3ecd51c8c90b70a7c4630c7e3140822b0073953ed2459df81b251c1c",
+      "pages": 62,
+      "cache_source": "C:\\Users\\wangj\\.cache\\电机驱动设计归档\\整改资料\\eFuse核对\\LM4040.pdf",
+      "manufacturer": "Texas Instruments",
+      "version": "SLOS456Q / 2026-04",
+      "source_kind": "原厂官网PDF",
+      "coverage_note": "原厂LM4040系列手册；PDF第32页明确LM4040A30IDBZR，DBZ针脚图及功能在第4页，A30I电气条件在第12页；不得混用LM4040-N型号。",
+      "exact_model_page": 32,
+      "pin_function_pages": [
+        4
+      ],
+      "refs": [
+        "U_OVP5_CLAMP"
+      ]
+    },
+    {
+      "file": "SC0350-270-RSS.pdf",
+      "source": "https://www.licaptech.com/pdfs/datasheets/ultracapacitors/60862a8f5979e5f969df83ba_LICAP_SC0350_270_RSS_Datasheet_061120.pdf",
+      "resolved_source": "https://www.licaptech.com/pdfs/datasheets/ultracapacitors/60862a8f5979e5f969df83ba_LICAP_SC0350_270_RSS_Datasheet_061120.pdf",
+      "sha256": "738765ca1c504a99713c8c6283404b3e03a518d3396862fdff8dc5397320053d",
+      "pages": 2,
+      "original_pages": 2,
+      "version": "2020-06-11",
+      "manufacturer": "LICAP Technologies",
+      "source_kind": "原厂数据手册",
+      "design_status": "已确定储能器件；8S1P/侧，16只；板外，无虚构封装/脚号"
+    },
+    {
+      "file": "TLV61046ADBVR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/tlv61046a.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/tlv61046a.pdf",
+      "sha256": "a3749e059bbbe29aa685d5e45275b867ea7bd0bb24a3bc9aaa812640cdf363f5",
+      "pages": 28,
+      "original_pages": 28,
+      "version": "RevB 2021-02",
+      "manufacturer": "Texas Instruments",
+      "source_kind": "原厂数据手册",
+      "refs": [
+        "U_SC_AFE_BOOST"
+      ]
+    },
+    {
+      "file": "SRN4018-100M.pdf",
+      "source": "https://www.bourns.com/docs/product-datasheets/srn4018.pdf",
+      "resolved_source": "https://www.bourns.com/docs/product-datasheets/srn4018.pdf",
+      "sha256": "c0676daa5085c508282bb5a939876346ffadc9ae67caf65ad2f139a667733ec9",
+      "pages": 3,
+      "original_pages": 3,
+      "manufacturer": "Bourns",
+      "source_kind": "原厂系列数据手册",
+      "coverage_note": "SRN4018系列数据手册；当前选用10uH SRN4018-100M",
+      "refs": [
+        "L_SC_AFE_BOOST"
+      ]
+    },
+    {
+      "file": "MSS1210H.pdf",
+      "source": "https://www.coilcraft.com/getmedia/52078704-21eb-4c2b-9b72-1e07b4a2e252/mss1210h.pdf",
+      "resolved_source": "https://www.coilcraft.com/getmedia/52078704-21eb-4c2b-9b72-1e07b4a2e252/mss1210h.pdf",
+      "sha256": "e82623c515ca4f3e92898593ddfd87aaee87f60d492c340808ce01316aa9f0ae",
+      "pages": 2,
+      "original_pages": 2,
+      "manufacturer": "Coilcraft",
+      "version": "2022-07-06",
+      "source_kind": "原厂数据手册",
+      "design_source": "https://www.coilcraft.com/en-us/products/power/high-voltage-inductors/mss-mos-%281%29/mss1210h/mss1210h-683/",
+      "refs": [
+        "L_SC_10V"
+      ]
+    },
+    {
+      "file": "XAL7030.pdf",
+      "source": "https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf",
+      "resolved_source": "https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf",
+      "sha256": "c323552b4c1acd5ad94d13c32783d1d7db3f86ab70a1c58431673aebb96be9f6",
+      "pages": 4,
+      "original_pages": 4,
+      "manufacturer": "Coilcraft",
+      "version": "2026-02-25",
+      "source_kind": "原厂数据手册",
+      "design_source": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal7030/xal7030-822/",
+      "refs": [
+        "L_SC_5V"
+      ]
+    },
+    {
+      "file": "TLV803EA30DBZR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/tlv803e.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/tlv803e.pdf",
+      "sha256": "8c0e1447e9f5edfc933912d7f30d3a11867d052b43b3ff75e45309aa461a651b",
+      "pages": 52,
+      "original_pages": 52,
+      "manufacturer": "Texas Instruments",
+      "version": "Rev J / 2021-05",
+      "source_kind": "原厂PDF",
+      "refs": [
+        "U_SC_GBIAS_POR"
+      ]
+    },
+    {
+      "file": "DMP6023LE-13.pdf",
+      "source": "https://www.diodes.com/datasheet/download/DMP6023LE.pdf",
+      "resolved_source": "https://www.diodes.com/datasheet/download/DMP6023LE.pdf",
+      "sha256": "175824e1809b9ee239012a5704fd17ae29ec274f70cb3f451245b662f1964c59",
+      "pages": 7,
+      "original_pages": 7,
+      "manufacturer": "Diodes Incorporated",
+      "version": "原厂数据手册",
+      "source_kind": "原厂PDF",
+      "refs": [
+        "Q_SC_GBIAS_CUT"
+      ]
+    },
+    {
+      "file": "TMR1.pdf",
+      "source": "https://www.tracopower.com/products/tmr1.pdf",
+      "resolved_source": "https://media.distrelec.com/Web/Downloads/_t/ds/tmr1_eng_tds.pdf",
+      "sha256": "85d311d3fc1ce457daeadd9d83c05f61de1a7dde660a42d5f20510301a720e8b",
+      "pages": 4,
+      "original_pages": 4,
+      "manufacturer": "TRACO Power",
+      "version": "2019-06-03",
+      "source_kind": "原厂PDF镜像",
+      "refs": [
+        "PSU_SC_PORT_HV",
+        "PSU_SC_PORT_LV"
+      ]
+    },
+    {
+      "file": "UCC21520DWR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/ucc21520.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/ucc21520.pdf",
+      "sha256": "9fa909613e47da0f18592efd501b78b7eff435c289bcf2db1e84e7e3190085c3",
+      "pages": 53,
+      "original_pages": 53,
+      "manufacturer": "Texas Instruments",
+      "version": "Rev F / 2024-11",
+      "source_kind": "原厂PDF",
+      "refs": [
+        "U_SC_PORT_DRV"
+      ]
+    },
+    {
+      "file": "SM05B-GHS-TB_LF_SN.pdf",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+      "resolved_source": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+      "sha256": "b1dcb317b6b9a4fbbedd2dbf42c64c95306a252d23de8933b85fcf161240b722",
+      "pages": 6,
+      "original_pages": 6,
+      "manufacturer": "JST",
+      "source_kind": "原厂PDF",
+      "refs": [
+        "J_SC_CTL",
+        "J_CAP_CTL"
+      ]
+    },
+    {
+      "file": "B2P-VH_LF_SN.pdf",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eVH.pdf",
+      "resolved_source": "https://www.jst-mfg.com/product/pdf/eng/eVH.pdf",
+      "sha256": "d51e669c597988b20c0963daf5bef7356cbd2104c1f867e9107c6fa6cd2b899c",
+      "pages": 6,
+      "original_pages": 6,
+      "manufacturer": "JST",
+      "source_kind": "原厂PDF",
+      "refs": [
+        "J_SC_AUX_IN"
+      ]
+    },
+    {
+      "file": "SN74LVC1G11DBVR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf",
+      "sha256": "ffd953703273b43844eae23cfbf31cfc801a3b9443f2c863d49dde62f5a9232b",
+      "pages": 37,
+      "original_pages": 37,
+      "manufacturer": "Texas Instruments",
+      "source_kind": "原厂PDF",
+      "refs": [
+        "U_PWM_GATE"
+      ]
+    },
+    {
+      "file": "SN74LVC1G97DBVR.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf",
+      "sha256": "53e8bc4d0f966f6e1d8d28987240f17a07e94bec6658ebc92ab322dccae7f416",
+      "pages": 41,
+      "original_pages": 41,
+      "manufacturer": "Texas Instruments",
+      "source_kind": "原厂PDF",
+      "refs": [
+        "U_CAP_LATCH_CLR"
+      ]
+    },
+    {
+      "file": "CSS4J-4026.pdf",
+      "source": "https://www.bourns.com/docs/product-datasheets/css4j-4026.pdf",
+      "resolved_source": "https://www.bourns.com/docs/product-datasheets/css4j-4026.pdf",
+      "sha256": "27be7941ff95afc1c0a98ac573d33a987279ce2ee55985ed78308d502543e49d",
+      "pages": 5,
+      "manufacturer": "Bourns",
+      "version": "CSS4J-4026 series",
+      "refs": [
+        "R_SC_PHASE1",
+        "R_SC_PHASE2",
+        "R_SC_CAP_CURRENT"
+      ]
+    },
+    {
+      "file": "ME6216A33XG.pdf",
+      "source": "https://atta.szlcsc.com/upload/public/pdf/source/20180904/C236658_7E9DCCC414B3EC256A51379BEE310666.pdf",
+      "resolved_source": "https://atta.szlcsc.com/upload/public/pdf/source/20180904/C236658_7E9DCCC414B3EC256A51379BEE310666.pdf",
+      "sha256": "12326e49a9399467404cb2c5fea0cf535de0f4730195b6c127b72278d87bd145",
+      "pages": 14,
+      "manufacturer": "Nanjing Microne Electronics",
+      "version": "V08",
+      "refs": [
+        "U_HOLD_LDO"
+      ]
+    },
+    {
+      "file": "INR18650-30P.pdf",
+      "source": "https://testmall.evemall.com/consumer-battery/cylindrical-cell/18650-30p",
+      "resolved_source": "https://testmall.evemall.com/consumer-battery/cylindrical-cell/18650-30p",
+      "sha256": "425130f181d013e12425e5cd30049c0ee8b15d235c782c89677bcde767bd6c81",
+      "pages": 17,
+      "manufacturer": "EVE Energy Co., Ltd.",
+      "version": "PBRI-INR18650/30P-D06-01 Rev B 2023-06-01",
+      "refs": []
+    },
+    {
+      "file": "WeAct_normal_QFN48_V1.0_外形.pdf",
+      "source": "https://github.com/WeActStudio/WeActStudio.STM32G431CoreBoard/blob/master/Hardware/QFN48/WeAct-STM32G431CxUxCoreBoard_V10%20Board%20Shape%20%E5%A4%96%E5%BD%A2.pdf",
+      "resolved_source": "https://github.com/WeActStudio/WeActStudio.STM32G431CoreBoard/blob/master/Hardware/QFN48/WeAct-STM32G431CxUxCoreBoard_V10%20Board%20Shape%20%E5%A4%96%E5%BD%A2.pdf",
+      "sha256": "95f2ebe7fbef3d24eecc3f454991a0c91bb18e21c7caaef8de4fd1a172294158",
+      "pages": 3,
+      "manufacturer": "WeAct Studio",
+      "version": "普通QFN48 V1.0 外形参考",
+      "refs": [
+        "J_SC_CORE_P1",
+        "J_SC_CORE_P2"
+      ]
+    },
+    {
+      "file": "221-412.pdf",
+      "source": "https://www.wago.com/gb/installation-terminal-blocks-and-connectors/splicing-connector-with-levers/p/221-412",
+      "resolved_source": "https://www.wago.com/gb/installation-terminal-blocks-and-connectors/splicing-connector-with-levers/p/221-412",
+      "sha256": "997c0d75c17b48a17821c9f6325715c7687611dc51ec53b7fefc505adac089ff",
+      "pages": 8,
+      "manufacturer": "WAGO",
+      "version": "2024-05-08",
+      "refs": [
+        "F_SC_AUX_BAT"
+      ]
+    },
+    {
+      "file": "Nichicon_PW.pdf",
+      "source": "https://www.nichicon.com/getmedia/8feec43d-7806-4ea3-a7e2-8f52c40026b3/e-upw.pdf",
+      "resolved_source": "https://www.nichicon.com/getmedia/8feec43d-7806-4ea3-a7e2-8f52c40026b3/e-upw.pdf",
+      "sha256": "8be66d99933e7589bc030a3417b3f6b3a6088523fa8ec09b637bf28ecf44b230",
+      "pages": 5,
+      "manufacturer": "Nichicon",
+      "version": "PW series",
+      "refs": [
+        "C_PSU15_EXT_IN",
+        "C_PSU12_MAIN_EXT_IN",
+        "C_PSU5_EXT_IN",
+        "C_PSU12_BACKUP_EXT_IN",
+        "C_PSU12_COIL_EXT_IN",
+        "C_PSU15_EXT_OUT",
+        "C_PSU12_MAIN_EXT_OUT",
+        "C_PSU5_EXT_OUT",
+        "C_PSU12_BACKUP_EXT_OUT",
+        "C_PSU12_COIL_EXT_OUT"
+      ]
+    },
+    {
+      "file": "YAGEO_RSF.pdf",
+      "source": "https://yageogroup.com/content/datasheet/asset/file/YAGEO-RSF_DATASHEET",
+      "resolved_source": "https://yageogroup.com/content/datasheet/asset/file/YAGEO-RSF_DATASHEET",
+      "sha256": "7c43489665a7e2848fcb4de40cb9ed51f173673c1eb6e49c0a7e0d89cca75694",
+      "pages": 18,
+      "manufacturer": "YAGEO",
+      "version": "RSF_datasheet_2024v4",
+      "refs": [
+        "R_PSU5_EXT_PRELOAD",
+        "R_PSU12_MAIN_EXT_PRELOAD",
+        "R_PSU12_BACKUP_EXT_PRELOAD",
+        "R_PSU12_COIL_EXT_PRELOAD",
+        "R_PSU15_EXT_PRELOAD"
+      ]
+    },
+    {
+      "file": "SN74LVC32A.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc32a.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/sn74lvc32a.pdf",
+      "sha256": "67988a754d94b6d0a959ec2905b1654f36663987f52fa316d4a78ebc5f8e2f86",
+      "pages": 41,
+      "manufacturer": "Texas Instruments",
+      "version": "Rev U",
+      "refs": []
+    },
+    {
+      "file": "SN74LVC1G38.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g38.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g38.pdf",
+      "sha256": "03684e6e8e08cafdc89d171c758c0897836181ed9443ed7810f7e2bbf5871ff2",
+      "pages": 41,
+      "manufacturer": "Texas Instruments",
+      "version": "Rev H",
+      "refs": []
+    },
+    {
+      "file": "SN74LVC74A.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc74a.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/sn74lvc74a.pdf",
+      "sha256": "5ebad76badd3a17be3544fac926cdf3d78082a6b8b33aa9b824266fabe6d8eb3",
+      "pages": 43,
+      "manufacturer": "Texas Instruments",
+      "version": "Rev W",
+      "refs": []
+    },
+    {
+      "file": "SN74LV08A.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lv08a.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/sn74lv08a.pdf",
+      "sha256": "4b16bb84dcb43c1b79f957b90697a3a9d219a8385664da76b2e16d215ca05ca0",
+      "pages": 30,
+      "manufacturer": "Texas Instruments",
+      "version": "Rev N",
+      "refs": []
+    },
+    {
+      "file": "AQY210EH.pdf",
+      "source": "https://mediap.industry.panasonic.eu/assets/download-files/import/semi_eng_ge1a_aqy21_e_dip4.pdf",
+      "resolved_source": "https://mediap.industry.panasonic.eu/assets/download-files/import/semi_eng_ge1a_aqy21_e_dip4.pdf",
+      "sha256": "c4f533985988595908b678e7c03b80bdec5bca050bcef2e1f88674d8cfb6666c",
+      "pages": 16,
+      "manufacturer": "Panasonic Industry",
+      "version": "GE 1 Form A family",
+      "refs": []
+    },
+    {
+      "file": "AQY410EH.pdf",
+      "source": "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/495",
+      "resolved_source": "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/495",
+      "sha256": "d6cec866244e8d75f292415515e4066953a3239a149467405fdcb1f65edc2db9",
+      "pages": 18,
+      "manufacturer": "Panasonic Industry",
+      "version": "Product Catalog 2022.4",
+      "refs": []
+    },
+    {
+      "file": "PMV20XNEA.pdf",
+      "source": "https://assets.nexperia.com/documents/data-sheet/PMV20XNEA.pdf",
+      "resolved_source": "https://assets.nexperia.com/documents/data-sheet/PMV20XNEA.pdf",
+      "sha256": "424bc3e9faf227dac4cb3d20a385dce9b61e60a8def4287906086488c9242abd",
+      "pages": 16,
+      "manufacturer": "Nexperia",
+      "version": "official datasheet",
+      "refs": []
+    },
+    {
+      "file": "TPS7A16.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/tps7a16.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/tps7a16.pdf",
+      "sha256": "4e05cfdef8f64684f9f24b7d1f86e83badb7784c09c96f2ddbcb3dbc0a3b48f80",
+      "pages": 37,
+      "manufacturer": "Texas Instruments",
+      "version": "Rev F",
+      "refs": []
+    },
+    {
+      "file": "KEM_C1003_C0G_SMD.pdf",
+      "source": "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf",
+      "resolved_source": "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf",
+      "sha256": "02d179914aeb9585eb2229ba8e18ef9d6b01c77c056de2af295d6950a2a5cc0d",
+      "pages": 22,
+      "manufacturer": "KEMET",
+      "version": "2025-02-20",
+      "refs": []
+    },
+    {
+      "file": "C0805C103J1GACTU.pdf",
+      "source": "https://search.kemet.com/component-documentation/download/specsheet/C0805C103J1GACTU",
+      "resolved_source": "https://search.kemet.com/component-documentation/download/specsheet/C0805C103J1GACTU",
+      "sha256": "9246a34bd86dd72fcca79f70cd4bfb4896369ae19de19c1e62164d7edf36f0b0",
+      "pages": 4,
+      "manufacturer": "KEMET",
+      "version": "exact-part specsheet",
+      "refs": []
+    },
+    {
+      "file": "SN74LVC1G74.pdf",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf",
+      "resolved_source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf",
+      "sha256": "e46a5a867fec742290000dca5ed3b291535f3c4418ef2ae267acc4ab51b26d8a",
+      "pages": 31,
+      "manufacturer": "Texas Instruments",
+      "version": "Rev G",
+      "refs": []
+    },
+    {
+      "file": "YAGEO_RT_PYU_RT.pdf",
+      "source": "https://yageogroup.com/content/datasheet/asset/file/pyu-rt_1-to-0-01_rohs_l",
+      "resolved_source": "https://yageogroup.com/content/datasheet/asset/file/pyu-rt_1-to-0-01_rohs_l",
+      "sha256": "00a9148c2958122200e8a93292e389392a795adcfe40562d6ca4f690d1e5d7d1",
+      "pages": 10,
+      "manufacturer": "YAGEO",
+      "version": "RT series, Product specification 2026-02-12 V.17",
+      "refs": []
+    }
+  ],
+  "summary": "唯一资料索引；逐型号链接实际选用元件和有明确来源的候选。缺精确原厂PDF则明示缺失，不用近似型号替代。原设计源非R/C基线193位号/72型号；已确认被动件逐型号映射45个位号，其余未核实R/C仍属覆盖缺口。",
+  "summary_refs": "原理图BOM及各板设计数据源；候选标记保留。",
+  "标准模块优先规则": "新增单向开关稳压先按输入/欠压恢复、输出、连续与瞬态负载、最小负载/静耗、热、隔离、默认态、反向阻断、EMC和故障保护筛查成品模块。URB48手册确认制造商为深圳市海凌科电子有限公司；URB4815YMD-10WR3同一型号字符串也见于MORNSUN公开产品页，采购实物须核原厂/授权来源，不凭型号字符串归属。索引与规则均不构成替代或电气批准。",
+  "选型参考": [
+    {
+      "名称": "WeAct normal QFN48 V1.0 官方原理图（引脚参考）",
+      "文件": "WeAct_normal_QFN48_V1.0.pdf",
+      "SHA256": "57eca2e3467abd45bd6d4bc993eb11e9c83389a7c390da2543c3f20cfc2c640d",
+      "来源": "https://github.com/WeActStudio/WeActStudio.STM32G4CoreBoard",
+      "用途": "仅用于WeAct核心板P1/P2逻辑引脚编号及STM32G431资源映射参考；J_SC_CORE_P1/P2实际配套母座MPN为Harwin M20-7831242。",
+      "用户指定仓库": "https://gitee.com/WeAct-TC/WeActStudio.STM32G431CoreBoard.git",
+      "本轮核对": "官方GitHub同名仓库普通QFN48版原理图与本文件SHA256完全一致；用户实物版本尚未确认，不能用于Long版。"
+    }
+  ],
+  "附属选型资料缺口": [
+    {
+      "名称": "LPSM0001ZXE",
+      "来源": "https://www.littelfuse.com/assetdocs/lpsm-datasheet?assetguid=ebb86553-4183-4b3a-b68f-7fb226667858",
+      "状态": "2026-01-30原厂PDF在线读取并核实3页，订货表第3页；本机下载403，未保存PDF，不声称已归档。",
+      "必要条件": "PDF归档仍待完成；AWG14→221-412→AWG18→VH方案已落实，短路/熔断/启动仍待核。"
+    },
+    {
+      "名称": "STPST10H100SB-TR",
+      "来源": "https://www.st.com/resource/en/datasheet/stpst10h100.pdf",
+      "状态": "2026-10-04在线原厂9页可读；本机三种原厂URL请求未取得PDF，未声称归档",
+      "必要条件": "板源绑定前需取得原厂PDF并逐脚/封装尺寸核对",
+      "当前使用状态": "2026-10-04 BMS责任人撤销本候选需求，改复用STPS60150CT；停止检索，原缺口仅历史"
+    },
+    {
+      "名称": "IXTH75N10L2",
+      "来源": "https://www.littelfuse.com/assetdocs/littelfuse-discrete-mosfets-ixt-75n10-datasheet?assetguid=ea051e16-aaa9-4983-a975-8d0c07325d72",
+      "状态": "2026-10-04 HTTPError('403 Client Error: Forbidden for url: https://www.littelfuse.com/assetdocs/littelfuse-discrete-mosfets-ixt-75n10-datasheet?assetguid=ea051e16-aaa9-4983-a975-8d0c07325d72')",
+      "必要条件": "未归档，不把库目录规格当原厂证据"
+    }
+  ],
+  "标准模块外围资料": {
+    "厂家新增实体PDF": 2,
+    "已选被动型号": 11,
+    "已映射被动位号": 45,
+    "本体几何资料": "URB4815YMD-10WR3.pdf第5页PCB俯视",
+    "动态与制造放行": false,
+    "URB48模块覆盖": "18–75V输入、固定5/12/15V、单只10W；只作为对应独立低压支路候选",
+    "替代规则": "新增/重做单向变换级先查成品模块；按当前各板设计源中的供电与保护要求核对",
+    "采购身份核对": "归档Hi-Link原厂手册写明深圳市海凌科电子有限公司；URB4815YMD-10WR3也有MORNSUN同字符串公开页面，按供货渠道核实实物"
+  },
+  "non_rc_covered_refs": 193,
+  "non_rc_unique_models": 72,
+  "selected_passive_models": 11,
+  "selected_passive_refs": 45,
+  "附属选型资料": {
+    "TNPW推荐焊盘": {
+      "文件": "Vishay_ChipResistor_Pads.pdf",
+      "来源": "https://www.vishay.com/docs/28950/recsoldpaddims-drabeyresfus.pdf",
+      "SHA256": "9e2b145c937da3be1e926b8afc2856959754eeb4d1103241d838038f7308144e",
+      "页数": 2,
+      "版本": "Doc28950 2022-07-12",
+      "核对": "第1页图表已渲染目视核对；TNPW Doc31006 p8明确引用",
+      "PCB工艺放行": false
+    }
+  },
+  "公共库补齐取证": {
+    "https://www.vishay.com/docs/30122/wslp.pdf": {
+      "型号": [
+        "WSLP2512R0020FEA",
+        "WSLP2512R0100FEA",
+        "WSLP2512R0200FEA"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "wslp.pdf",
+      "SHA256": "d3dd7b4f590e713c84303e32530e8c8c6fd025617896e11d25599521771e4c13"
+    },
+    "https://www.st.com/resource/en/datasheet/stps5h100.pdf": {
+      "型号": [
+        "STPS5H100A"
+      ],
+      "HTTP": 567,
+      "PDF": false
+    },
+    "https://ww1.microchip.com/downloads/en/DeviceDoc/21897B.pdf": {
+      "型号": [
+        "MCP4921-E/SN"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "21897B.pdf",
+      "SHA256": "8209dfd3415b09f4a96bdcb5cc7b53dfe2238ca59421542a34f5ee7f03eea6e3"
+    },
+    "https://www.ti.com/lit/ds/symlink/ina149.pdf": {
+      "型号": [
+        "INA149AID"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "ina149.pdf",
+      "SHA256": "26d692964d08e4af1d374b0e6b029ddca147ad6abde812b0b7a233cf43865cd3"
+    },
+    "https://www.ti.com/lit/ds/symlink/tps7b69-q1.pdf": {
+      "型号": [
+        "TPS7B6950QDBVRQ1"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "tps7b69-q1.pdf",
+      "SHA256": "91652020d6cc8bc6d293c68a11c2b9fe5521bb7f79edd3ee75ff89d6c006c2d2"
+    },
+    "https://www.ti.com/lit/ds/symlink/tlv3601.pdf": {
+      "型号": [
+        "TLV3601DBVR"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "tlv3601.pdf",
+      "SHA256": "4cc4248683737d1a6539a01ef67db29b8300dcf7806f7b14b3f49cdbb294ca2d"
+    },
+    "https://www.ti.com/lit/ds/symlink/sn74ahct1g32.pdf": {
+      "型号": [
+        "SN74AHCT1G32DBVR"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "sn74ahct1g32.pdf",
+      "SHA256": "bbee63463a8fd4cb286e66542f062c62c083ade73395b153211ec8052aff3337"
+    },
+    "https://assets.nexperia.com/documents/data-sheet/BZT52H_SER.pdf": {
+      "型号": [
+        "BZT52H-C12"
+      ],
+      "HTTP": 403,
+      "PDF": false
+    },
+    "https://www.onsemi.com/pdf/datasheet/mmbt5550lt1-d.pdf": {
+      "型号": [
+        "MMBT5551LT1G"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "mmbt5550lt1-d.pdf",
+      "SHA256": "039c0d4134e10118fb888fd81cf91539df222bc0c8ec5b8c39844e08b723a83e"
+    },
+    "https://www.ti.com/lit/ds/symlink/lm2662.pdf": {
+      "型号": [
+        "LM2662MX/NOPB"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "lm2662.pdf",
+      "SHA256": "3a994b4ab387c486476bed9cfeea141506d592030121df7eb54c8cceb1ee2615"
+    },
+    "https://www.ti.com/lit/ds/symlink/tlv9002.pdf": {
+      "型号": [
+        "TLV9002IDR"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "tlv9002.pdf",
+      "SHA256": "e03eb2e84aec415cb205c8c48b369ea58ac074ad812cf3d8ff9476ca419455da"
+    },
+    "https://www.ti.com/lit/ds/symlink/tlv1702.pdf": {
+      "型号": [
+        "TLV1702AIDGKR"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "tlv1702.pdf",
+      "SHA256": "b971c8ca9ae7da43d67fa3486f202e6e688d8f5cc4b220268473fc0b4904c42b"
+    },
+    "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf": {
+      "型号": [
+        "SN74LVC1G07DBVR"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "sn74lvc1g07.pdf",
+      "SHA256": "d747abb8b33220adac36ed7494f4c5785ac3c5ee30b84495fac05dd4a933de47"
+    },
+    "https://www.ti.com/lit/ds/symlink/sn74lvc1g06.pdf": {
+      "型号": [
+        "SN74LVC1G06DBVR"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "sn74lvc1g06.pdf",
+      "SHA256": "44dbca33c92d677ed71f99c2d1a2eb28f12d6fdb512e13fdf485444a3a42b4a4"
+    },
+    "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf": {
+      "型号": [
+        "SN74LVC1G14DBVR"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "sn74lvc1g14.pdf",
+      "SHA256": "d64e41f0a267e8c5f73873058561642c57e093a2b7ecb4715d7ab62f0ef31a4f"
+    },
+    "https://www.analog.com/media/en/technical-documentation/data-sheets/1990fb.pdf": {
+      "型号": [
+        "LT1990AIS8#PBF"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "1990fb.pdf",
+      "SHA256": "607e572e0a45ff9e2b59f5cd653e790a9ffee36f1634482659660207ef4f2d00"
+    },
+    "https://www.ti.com/lit/ds/symlink/tps7a4001.pdf": {
+      "型号": [
+        "TPS7A4001DGNR"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "tps7a4001.pdf",
+      "SHA256": "63478c047e91a341a723bf4549689fb362a0fc9bf91e249db7e931e8b219e8a6"
+    },
+    "https://www.ti.com/lit/ds/symlink/tps3704.pdf": {
+      "型号": [
+        "TPS37043DJOFDDFR"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "tps3704.pdf",
+      "SHA256": "2c191e129facf23a1f57fa351c47f4b8857aba1c04bc110166b64a5cd231b9cc"
+    },
+    "https://www.ti.com/lit/ds/symlink/lm5146.pdf": {
+      "型号": [
+        "LM5146RGYR"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "lm5146.pdf",
+      "SHA256": "830cbf80266d2542e187123fdb1f073104a4a71d9c10ec1d057120a44b0c693c"
+    },
+    "https://www.ti.com/lit/ds/symlink/tmux1511.pdf": {
+      "型号": [
+        "TMUX1511PWR"
+      ],
+      "HTTP": 200,
+      "PDF": true,
+      "文件": "tmux1511.pdf",
+      "SHA256": "c32b83722e3717c554dc8f68da05d9e02aa44087043d7b820f5e113713adbfcb"
+    }
+  }
+}
